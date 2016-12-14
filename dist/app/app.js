@@ -3,6 +3,14 @@
  * Modified by bear on 2016/9/7.
  */
 $(function () {
+    $(document).on('click', function(e){
+        var target = $(e.target);
+        var router;
+        if(target.hasClass('js-router')){
+            router = target.data('router');
+            window.pageManager.go(router);
+        }
+    });
     var pageManager = {
         $container: $('#container'),
         _pageStack: [],
@@ -209,8 +217,14 @@ $(function () {
             link: "https://weui.io",
             imgUrl: 'https://mmbiz.qpic.cn/mmemoticon/ajNVdqHZLLA16apETUPXh9Q5GLpSic7lGuiaic0jqMt4UY8P4KHSBpEWgM7uMlbxxnVR7596b3NPjUfwg7cFbfCtA/0'
         };
-
-        $.getJSON('https://weui.io/api/sign?url=' + encodeURIComponent(location.href.split('#')[0]), function (res) {
+        res = {
+  "nonceStr": "v0eohks0a3mrev6",
+  "timestamp": "1481695098",
+  "url": "https://weui.io/",
+  "signature": "e8255968cb28f082ec40cfb0831715559b550a0f",
+  "appid": "wx5338462f141a2f51"
+};
+        // $.getJSON('https://weui.io/api/sign?url=' + encodeURIComponent(location.href.split('#')[0]), function (res) {
             wx.config({
                 beta: true,
                 debug: false,
@@ -247,7 +261,7 @@ $(function () {
                     imgUrl: 'https://mmbiz.qpic.cn/mmemoticon/ajNVdqHZLLA16apETUPXh9Q5GLpSic7lGuiaic0jqMt4UY8P4KHSBpEWgM7uMlbxxnVR7596b3NPjUfwg7cFbfCtA/0'
                 });
             });
-        });
+        // });
     }
     function setPageManager(){
         var pages = {}, tpls = $('script[type="text/html"]');
