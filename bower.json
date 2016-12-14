@@ -1,0 +1,20 @@
+{
+    "name": "bio-wechat",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sstm888/bio-wechat.git"
+    },
+    "description": "bio's project with weui",
+    "main": "dist/style/weui.css",
+    "version": "1.0.0",
+    "authors": [
+        "bioeh front-end team"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "bioeh",
+        "bio wechat"
+    ],
+    "homepage": "https://github.com/sstm888/bio-wechat",
+    "ignore": []
+}

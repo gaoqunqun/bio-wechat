@@ -1,2 +1,1 @@
-# bio-wechat
-bio's project with weui
+## bio微信公众号项目
