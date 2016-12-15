@@ -1,0 +1,81 @@
+
+<style type="text/css">
+    .detection-tips{
+        font-size:0.8rem;
+        color:#555;
+        padding:1rem;
+    }
+</style>
+
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+    </div>
+    <div class="page__bd">
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell weui-cell_select">
+                <div class="weui-cell__hd"><label class="weui-label">检测项目</label></div>
+                <div class="weui-cell__bd ">
+                    <select class="weui-select" name="select1">
+                        <option>体格检测、眼项检测</option>
+                        <option>基因检测</option>
+                        <option>基因检测、OGTT检测</option>
+                    </select>
+                </div>
+                <div class="weui-cell__ft">
+                    <i class="weui-icon-warn"></i>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select">
+                <div class="weui-cell__hd"><label class="weui-label">检测地点</label></div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select1">
+                        <option selected="" value="1">健康小屋</option>
+                        <option value="2">重庆市两江新区</option>
+                        <option value="3">重庆市XX区</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select">
+                <div class="weui-cell__hd"><label class="weui-label">检测时间</label></div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select1" >
+                        <option selected="" value="1"></option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        <div class="weui-btn-area">
+            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
+        </div>
+        <div class="detection-tips">
+            <h4>检测前后注意事项</h4>
+            <p>1、食物可直接影响餐后血糖，所以测空腹血糖应该禁食至少8小时以上。如果早上7点抽血化验空腹血糖，则前一天晚上10点前就不能再吃任何点心、水果喝饮料了。但这段时间可以少量喝些白开水。</p>
+            <p>2、抽血化验前一天，饮食不应有太大变化。不要大吃大喝，特别不要喝酒，不要进食过于油腻或太甜、太咸的食物，以免影响化验结果。</p>
+            <p>3、抽血化验空腹血糖前不宜饮用浓茶、咖啡等刺激性饮料。若感觉口渴，可喝少量白开水、纯净水、矿泉水等，总量不宜超过100毫升。</p>
+            <p>4、化验空腹血糖前2-3天一定要停用维生素C，否则会干扰真实的检测结果。因为维生素C是一种很强的还原剂，可以与化验血糖、ta糖尿的试剂发生化学反应，使化验出的血糖、尿糖含量偏低。</p>
+
+        </div>
+    </div>
+    <div class="page__ft">
+        <a href="javascript:home()"></a>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var $tooltips = $('.js_tooltips');
+
+        $('#showTooltips').on('click', function () {
+            if ($tooltips.css('display') != 'none') return;
+
+            // toptips的fixed, 如果有`animation`, `position: fixed`不生效
+            $('.page.cell').removeClass('slideIn');
+
+            $tooltips.css('display', 'block');
+            setTimeout(function () {
+                $tooltips.css('display', 'none');
+            }, 2000);
+        });
+    });
+</script>

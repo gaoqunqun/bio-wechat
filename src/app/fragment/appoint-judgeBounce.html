@@ -1,0 +1,43 @@
+<style type="text/css">
+    .weui-dialog__bd{
+        font-size:1rem;
+        color:#000;
+    }
+    .weui-dialog__bd__detail{
+        font-size:0.5rem;
+
+    }
+</style>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">预约体检信息度未完成弹框</h1>
+    </div>
+    <div class="page__bd page__bd_spacing">
+        <a href="javascript:;" class="weui-btn" id="appoint">预约体检信息度未完成弹框</a>
+    </div>
+    <div id="dialogs">
+
+        <!--BEGIN dialog2-->
+        <div class="js_dialog" id="appoint-Bounce" style="display: none;">
+            <div class="weui-dialog">
+                <div class="weui-dialog__bd">请先完善信息调查</div>
+                <div class="weui-dialog__bd__detail">(信息调查完成度为100%才可以预约体检)</div>
+                <div class="weui-dialog__ft">
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">确定</a>
+                </div>
+            </div>
+        </div>
+        <!--END dialog2-->
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        var $appoint = $('#appoint');
+        $('.weui-dialog__btn_primary').on('click', function(){
+            $(this).parents('.js_dialog').fadeOut(200);
+        });
+        $('#appoint').on('click', function(){
+            $("#appoint-Bounce").fadeIn(200);
+        });
+    });
+</script>

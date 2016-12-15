@@ -39,7 +39,7 @@ $(function () {
             this._pageIndex--;
 
             var url = location.hash.indexOf('#') === 0 ? location.hash : '#';
-            var page = self._find('url', url) || self._defaultPage;
+            var page = self._defaultPage;
             this._go(page);
             return this;
         },
@@ -277,7 +277,7 @@ $(function () {
                     $foot.removeClass('j_bottom');
                 }
             })
-            .setDefault('home')
+            .setDefault('appointed')
             .init();
     }
 
