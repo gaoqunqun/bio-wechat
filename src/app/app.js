@@ -1,7 +1,33 @@
-/**
- * Created by jf on 2015/9/11.
- * Modified by bear on 2016/9/7.
- */
+var ACCESS_TOKEN = '8OkncZ0VGr33OqdEBY4UQSEIF_DE5dAGv-68zoThXZkTskBUSNqtSzJYCQ24sz2rld2Hs2ey4xMEKy172Z1Yei7kFwJIdL_tWSpEHOk9MfhlVPlSfeQFrP4F7yZneZp6FNPdAJAJRT';
+var jsapi_ticket = 'kgt8ON7yVITDhtdwci0qeciU0gL6Qd_bmQ9TuL769h0q9xaTIqL-FEm8g19tUyf4ayLjpqMdAqfMu3c144nWWw';
+var menuConfig = `{
+                    "button":[
+                        {
+                            "type":"view",
+                            "name":"在线报名",
+                            "url":"http://wwwv.applinzi.com/index.php#apply"
+                        },
+                        {
+                            "type":"view",
+                            "name":"在线筛查",
+                            "url":"http://wwwv.applinzi.com/index.php#filtrate"
+                        },
+                        {
+                            "name":"需要帮助",
+                            "sub_button":[
+                                {
+                                    "type":"view",
+                                    "name":"激活账号",
+                                    "url":"http://wwwv.applinzi.com/login.php#activate"
+                                },
+                                {
+                                    "type":"view",
+                                    "name":"忘记密码",
+                                    "url":"http://wwwv.applinzi.com/login.php#forget"
+                                }]
+                        }]
+                }`;
+
 $(function () {
     $(document).on('click', function(e){
         var target = $(e.target);
@@ -212,18 +238,18 @@ $(function () {
     }
     function setJSAPI(){
         var option = {
-            title: 'WeUI, 为微信 Web 服务量身设计',
-            desc: 'WeUI, 为微信 Web 服务量身设计',
-            link: "https://weui.io",
-            imgUrl: 'https://mmbiz.qpic.cn/mmemoticon/ajNVdqHZLLA16apETUPXh9Q5GLpSic7lGuiaic0jqMt4UY8P4KHSBpEWgM7uMlbxxnVR7596b3NPjUfwg7cFbfCtA/0'
+            title: '博奥颐和健康管理',
+            desc: '博奥颐和健康管理',
+            link: "http://wwwv.applinzi.com/",
+            imgUrl: '#'
         };
         res = {
-  "nonceStr": "v0eohks0a3mrev6",
-  "timestamp": "1481695098",
-  "url": "https://weui.io/",
-  "signature": "e8255968cb28f082ec40cfb0831715559b550a0f",
-  "appid": "wx5338462f141a2f51"
-};
+            "nonceStr": "o01nvjrr2ismsmh",
+            "timestamp": "1481794042",
+            "url": "http://wwwv.applinzi.com/",
+            "signature": "kgt8ON7yVITDhtdwci0qeciU0gL6Qd_bmQ9TuL769h0q9xaTIqL-FEm8g19tUyf4ayLjpqMdAqfMu3c144nWWw",
+            "appid": "wx7883f3fde466515d"
+        };
         // $.getJSON('https://weui.io/api/sign?url=' + encodeURIComponent(location.href.split('#')[0]), function (res) {
             wx.config({
                 beta: true,
@@ -238,16 +264,16 @@ $(function () {
                     'onMenuShareQQ',
                     'onMenuShareWeibo',
                     'onMenuShareQZone',
-                    // 'setNavigationBarColor',
+                    'setNavigationBarColor',
                     'setBounceBackground'
                 ]
             });
             wx.ready(function () {
-                /*
+
                  wx.invoke('setNavigationBarColor', {
-                 color: '#F8F8F8'
+                 color: 'red'
                  });
-                 */
+
                 wx.invoke('setBounceBackground', {
                     'backgroundColor': '#F8F8F8',
                     'footerBounceColor' : '#F8F8F8'
@@ -255,12 +281,31 @@ $(function () {
                 wx.onMenuShareTimeline(option);
                 wx.onMenuShareQQ(option);
                 wx.onMenuShareAppMessage({
-                    title: 'WeUI',
-                    desc: '为微信 Web 服务量身设计',
+                    title: '博奥颐和健康管理',
+                    desc: '健康管理平台',
                     link: location.href,
-                    imgUrl: 'https://mmbiz.qpic.cn/mmemoticon/ajNVdqHZLLA16apETUPXh9Q5GLpSic7lGuiaic0jqMt4UY8P4KHSBpEWgM7uMlbxxnVR7596b3NPjUfwg7cFbfCtA/0'
+                    imgUrl: '#'
                 });
+
+                getMenu();
             });
+
+        function getMenu(){
+            $.ajax({
+                url: 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token=' + ACCESS_TOKEN,
+                type: 'post',
+                data: {
+                    body: encodeURIComponent(menuConfig)
+                },
+                success: function(res){
+                    console.log(res)
+                },
+                error: function(ex){
+                    console.log(ex);
+                }
+            });
+        }
+
         // });
     }
     function setPageManager(){
