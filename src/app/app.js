@@ -1,32 +1,32 @@
 var ACCESS_TOKEN = '8OkncZ0VGr33OqdEBY4UQSEIF_DE5dAGv-68zoThXZkTskBUSNqtSzJYCQ24sz2rld2Hs2ey4xMEKy172Z1Yei7kFwJIdL_tWSpEHOk9MfhlVPlSfeQFrP4F7yZneZp6FNPdAJAJRT';
 var jsapi_ticket = 'kgt8ON7yVITDhtdwci0qeciU0gL6Qd_bmQ9TuL769h0q9xaTIqL-FEm8g19tUyf4ayLjpqMdAqfMu3c144nWWw';
-var menuConfig = `{
-                    "button":[
-                        {
-                            "type":"view",
-                            "name":"在线报名",
-                            "url":"http://wwwv.applinzi.com/index.php#apply"
-                        },
-                        {
-                            "type":"view",
-                            "name":"在线筛查",
-                            "url":"http://wwwv.applinzi.com/index.php#filtrate"
-                        },
-                        {
-                            "name":"需要帮助",
-                            "sub_button":[
-                                {
-                                    "type":"view",
-                                    "name":"激活账号",
-                                    "url":"http://wwwv.applinzi.com/login.php#activate"
-                                },
-                                {
-                                    "type":"view",
-                                    "name":"忘记密码",
-                                    "url":"http://wwwv.applinzi.com/login.php#forget"
-                                }]
-                        }]
-                }`;
+var menuConfig = '{\
+                    "button":[\
+                        {\
+                            "type":"view",\
+                            "name":"在线报名",\
+                            "url":"http://wwwv.applinzi.com/index.php#apply"\
+                        },\
+                        {\
+                            "type":"view",\
+                            "name":"在线筛查",\
+                            "url":"http://wwwv.applinzi.com/index.php#filtrate"\
+                        },\
+                        {\
+                            "name":"需要帮助",\
+                            "sub_button":[\
+                                {\
+                                    "type":"view",\
+                                    "name":"激活账号",\
+                                    "url":"http://wwwv.applinzi.com/login.php#activate"\
+                                },\
+                                {\
+                                    "type":"view",\
+                                    "name":"忘记密码",\
+                                    "url":"http://wwwv.applinzi.com/login.php#forget"\
+                                }]\
+                        }]\
+                }';
 
 $(function () {
     $(document).on('click', function(e){
@@ -247,7 +247,7 @@ $(function () {
             "nonceStr": "o01nvjrr2ismsmh",
             "timestamp": "1481794042",
             "url": "http://wwwv.applinzi.com/",
-            "signature": "kgt8ON7yVITDhtdwci0qeciU0gL6Qd_bmQ9TuL769h0q9xaTIqL-FEm8g19tUyf4ayLjpqMdAqfMu3c144nWWw",
+            "signature": jsapi_ticket,
             "appid": "wx7883f3fde466515d"
         };
         // $.getJSON('https://weui.io/api/sign?url=' + encodeURIComponent(location.href.split('#')[0]), function (res) {
