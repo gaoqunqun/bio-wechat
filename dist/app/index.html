@@ -371,7 +371,281 @@
     </div>
 </div>
 </script>
+    <script type="text/html" id="tpl_appiont-time">
 
+<!--预约时间-->
+<style type="text/css">
+    a{
+        text-align: center;
+    }
+    .weui-btn_primary{
+        border:0;
+        background:#fff;
+        out-line:none;
+    }
+    .page__hd .weui-grid__label{
+        border:0;
+    }
+</style>
+<div class="page">
+    <div class="page__hd weui-grids">
+        <a href="javascript:;" class="weui-grid">
+            <p>今天</p>
+            <p class="weui-grid__label">12月15号</p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>明天</p>
+            <p class="weui-grid__label">12月16号</p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>周一</p>
+            <p class="weui-grid__label">12月17号</p>
+        </a>
+    </div>
+    <div class="weui-grids">
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">已约满</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <p>10:00-12:00</p>
+            <p class="weui-grid__label"><button class="weui-btn_primary">预约</button></p>
+        </a>
+
+    </div>
+</div>
+</script>
+    <script type="text/html" id="tpl_user-info-detail">
+
+
+<!--基本信息-->
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">基本信息</h1>
+    </div>
+    <div class="page__bd">
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell ">
+                <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder=""/>
+                </div>
+                <div class="weui-cell__ft">
+                    <i class="weui-icon-warn"></i>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">性别</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">男</option>
+                        <option value="2">女</option>
+                        <option value="3">其他</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">国家/地区</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">汉族</option>
+                        <option value="2">蒙古族</option>
+                        <option value="3">布依族</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell ">
+                <div class="weui-cell__hd"><label class="weui-label">籍贯</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" placeholder=""/>
+                </div>
+
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+                </div>
+                <div class="weui-cell__ft">
+                    <i class="weui-icon-warn"></i>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">出生日期</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">2016</option>
+                        <option value="2">2017</option>
+                        <option value="3">2018</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">出生地</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">河北-石家庄</option>
+                        <option value="2">河南-永城</option>
+                        <option value="3">山东-烟台</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">婚姻状况</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">未婚</option>
+                        <option value="2">已婚</option>
+                        <option value="3">离异</option>
+                        <option value="3">其他</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">文化程度</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">小学</option>
+                        <option value="2">初中</option>
+                        <option value="3">本科</option>
+                        <option value="3">硕士</option>
+                        <option value="3">博士</option>
+                        <option value="3">其他</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">文化程度</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">农村</option>
+                        <option value="2">城镇</option>
+                        <option value="3">城市</option>
+                        <option value="3">其他</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">职业</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">农民</option>
+                        <option value="2">服务</option>
+                        <option value="3">私营</option>
+                        <option value="3">职员</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">收入状况</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">1500以下</option>
+                        <option value="2">1500-3000</option>
+                        <option value="3">3000-5000</option>
+                        <option value="3">5000-1万</option>
+                        <option value="3">1万-2万</option>
+                        <option value="3">2万以上</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+                </div>
+                <div class="weui-cell__ft">
+                    <i class="weui-icon-warn"></i>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">居住地址</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="1">两江新区1</option>
+                        <option value="2">两江新区2</option>
+                        <option value="3">两江新区3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell ">
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请填写小区名称楼号门牌等信息"/>
+                </div>
+                <div class="weui-cell__ft">
+                    <i class="weui-icon-warn"></i>
+                </div>
+            </div>
+        </div>
+        <div class="weui-btn-area">
+            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+        </div>
+    </div>
+    <div class="page__ft">
+    </div>
+</div>
+
+</script>
     <script type="text/html" id="tpl_appoint-judgeBounce">
 <style type="text/css">
     .weui-dialog__bd{
@@ -417,6 +691,531 @@
     });
 </script>
 </script>
+    <script type="text/html" id="tpl_user-live-info">
+
+
+<!--生活信息-->
+<style type="text/css">
+    .info img{
+        display:block;
+        width:100%;
+        height:100%;
+    }
+    .info {
+        position: relative;
+        overflow: hidden;
+        margin:1rem 0 0 0;
+    }
+    .info span{
+        display:block;
+        width:100%;
+        height:100%;
+        color:#fff;
+    }
+    .info .title{
+        position: absolute;
+        top:40%;
+        left:30%;
+        z-index: 999;
+    }
+    .info .info-number{
+        position: absolute;
+        top:88%;
+        left:60%;
+        z-index: 999;
+    }
+    .info .info-compel{
+        position: absolute;
+        top:10%;
+        left:80%;
+        z-index: 999;
+    }
+</style>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">生活信息</h1>
+    </div>
+    <div class="page__bd">
+        <article class="weui-article">
+            <section>
+                <div class="info">
+                    <img src="./images/pic_article.png" alt="">
+                    <span class="title">饮食习惯调查问卷</span>
+                    <span class="info-number">已有<i>2336</i>人参与</span>
+                    <span class="info-compel">已完成</span>
+
+                </div>
+                <div class="info">
+                    <img src="./images/pic_article.png" alt="">
+                    <span class="title">运动习惯调查问卷</span>
+                    <span class="info-number">已有<i>2336</i>人参与</span>
+                    <span class="info-compel">已完成</span>
+
+                </div>
+                <div class="info">
+                    <img src="./images/pic_article.png" alt="">
+                    <span class="title">饮酒情况调查问卷</span>
+                    <span class="info-number">已有<i>2336</i>人参与</span>
+                    <span class="info-compel">已完成</span>
+
+                </div>
+                <div class="info">
+                    <img src="./images/pic_article.png" alt="">
+                    <span class="title">吸烟情况调查问卷</span>
+                    <span class="info-number">已有<i>2336</i>人参与</span>
+                    <span class="info-compel">已完成</span>
+
+                </div>
+                <div class="info">
+                    <img src="./images/pic_article.png" alt="">
+                    <span class="title">睡眠情况调查问卷</span>
+                    <span class="info-number">已有<i>2336</i>人参与</span>
+                    <span class="info-compel">已完成</span>
+
+                </div>
+                <div class="info">
+                    <img src="./images/pic_article.png" alt="">
+                    <span class="title">妊娠生育情况调查问卷</span>
+                    <span class="info-number">已有<i>2336</i>人参与</span>
+                    <span class="info-compel">已完成</span>
+
+                </div>
+
+
+            </section>
+        </article>
+    </div>
+    <div class="page__ft">
+    </div>
+</div>
+</script>
+    <script type="text/html" id="tpl_questionnaire-write">
+
+<!--填写问卷调查-->
+<style type="text/css">
+    .other div{
+        display:none;
+    }
+</style>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">根据最近三个月的体验和感觉回答</h1>
+    </div>
+    <div class="page__bd">
+        <article class="weui-article">
+            <section>
+                <section class="num1">
+                    <p>
+                        <i>1</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div class="active">
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>2</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>3</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>4</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>5</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>6</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>7</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>8</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>9</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>10</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+                <section class="other">
+                    <p>
+                        <i>11</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
+                    </p>
+                    <div>
+                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
+                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
+                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
+                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
+                    </div>
+                </section>
+            </section>
+        </article>
+    </div>
+    <div class="page__ft">
+
+    </div>
+</div>
+</script>
+    <script type="text/html" id="tpl_questionnaire-result">
+
+
+<!--填写后的问卷结果-->
+<style type="text/css">
+    span{
+        color:#e9a22c;
+    }
+</style>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">问卷的结果</h1>
+    </div>
+    <div class="page__bd">
+        <article class="weui-article">
+            <section>
+                <p>
+                    <i>1</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位?<span>【上部】</span>
+                </p>
+                <p>
+                    <i>2</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>3</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>4</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>5</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>6</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>7</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>8</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>9</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>10</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+                <p>
+                    <i>11</i> 、用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？<span>【上部】</span>
+                </p>
+
+            </section>
+        </article>
+    </div>
+    <div class="page__ft">
+
+    </div>
+</div>
+</script>
+    <script type="text/html" id="tpl_family-disease">
+
+
+<!--家族疾病史-->
+
+
+<style type="text/css">
+    page__hd{
+        position: relative;
+    }
+    .weui-btn_mini{
+        position:absolute;
+        top:2.6rem;
+        right:1rem;
+    }
+    .tips{
+        font-size:0.8rem;
+        color:#555;
+    }
+</style>
+<div class="page">
+    <div class="page__hd">
+        <p>您的直系亲属目前或曾经有哪些疾病？</p>
+        <p class="tips">直系亲属包括：父母、兄妹、子女</p>
+        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">无</a>
+
+    </div>
+    <div class="page__bd">
+        <article class="weui-article">
+            <a href="javascript:;" class="weui-btn weui-btn_primary"><i class="weui-icon-cancel"></i>添加</a>
+
+        </article>
+    </div>
+    <div class="page__ft">
+
+    </div>
+</div>
+
+
+
+
+</script>
+    <script type="text/html" id="tpl_family-hasdisease">
+
+
+<!--家族有疾病史-->
+
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
+        <div class="weui-cells">
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">与患者关系</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <option value="0"></option>
+                        <option value="1">父母</option>
+                        <option value="2">祖父母</option>
+                        <option value="3">外祖父母</option>
+                        <option value="4">子女</option>
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cells_form">
+                <div class="weui-cell__hd"><label class="weui-label">患者年龄</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+                </div>
+            </div>
+        </div>
+        <div class="button-sp-area">
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">高血压</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">脑卒中</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">心肌梗塞</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">肠道息肉</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">精神疾病</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">糖调节受损失</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">恶性肿瘤</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">结节性多动脉炎</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">腰椎间盘突出</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">尿酸升高</a>
+        </div>
+        <div class="weui-cells weui-cells_form ">
+            <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text"  placeholder=""/>
+            </div>
+        </div>
+
+    </div>
+    <div class="page__ft">
+        <a href="javascript:;" class="weui-btn weui-btn_warn">删除</a>
+        <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
+    </div>
+</div>
+</script>
+    <script type="text/html" id="tpl_family-hasdiseased">
+
+
+<!--家族疾病史已填写-->
+
+
+<style type="text/css">
+    page__hd{
+        position: relative;
+    }
+    .weui-btn_mini{
+        position:absolute;
+        top:2.6rem;
+        right:1rem;
+    }
+    .tips{
+        font-size:0.8rem;
+        color:#555;
+    }
+</style>
+<div class="page">
+    <div class="page__hd">
+        <p>您的直系亲属目前或曾经有哪些疾病？</p>
+        <p class="tips">直系亲属包括：父母、兄妹、子女</p>
+
+    </div>
+    <div class="page__bd">
+        <div class="page__bd">
+            <div class="weui-form-preview">
+                <div class="weui-form-preview__hd">
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">父母<i>(与患者关系)</i></label>
+                        <em class="weui-form-preview__value">58岁（患病年纪）</em>
+                    </div>
+                </div>
+                <div class="weui-form-preview__bd">
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">所患疾病</i></label>
+                        <span class="weui-form-preview__value">
+                            <i>高血脂</i>
+                            <i>骨质酥松</i>
+                            <i>痛风</i>
+                            <i>高血压</i>
+                            <i>糖调节受损失</i>
+                            <i>慢性肝炎或肝硬化</i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="weui-form-preview">
+                <div class="weui-form-preview__hd">
+                    <label class="weui-form-preview__label">父母<i>(与患者关系)</i></label>
+                    <em class="weui-form-preview__value">58岁（患病年纪）</em>
+                </div>
+                <div class="weui-form-preview__bd">
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">所患疾病</label>
+                        <div class="weui-form-preview__value">
+                            <i>高血脂</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page__ft">
+        <article class="weui-article">
+            <a href="javascript:;" class="weui-btn weui-btn_primary"><i class="weui-icon-cancel"></i>添加</a>
+
+        </article>
+    </div>
+</div>
+
+
+
+
+</script>
+    <script type="text/html" id="tpl_allergy">
+
+
+
+<!--过敏史-->
+
+
+
+<!--家族有疾病史-->
+
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
+        <div class="button-sp-area">
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">青霉素</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">链霉素</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">磺胺类</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">头孢类</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">鸡蛋</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">牛奶</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">酒精</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">海鲜</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">花粉</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">尘螨</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">粉尘</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">洗洁剂</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">化妆品</a>
+        </div>
+        <div class="weui-cells weui-cells_form ">
+            <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text"  placeholder=""/>
+            </div>
+        </div>
+    </div>
+    <div class="page__ft">
+        <a href="javascript:;" class="weui-btn weui-btn_warn">删除</a>
+        <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
+    </div>
+</div>
+</script>
+
 
     <script type="text/html" id="tpl_user-state">
 
