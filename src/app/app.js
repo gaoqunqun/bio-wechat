@@ -336,7 +336,7 @@ $(function () {
                     $foot.removeClass('j_bottom');
                 }
             })
-            .setDefault('user-info-detail')
+            .setDefault('family-hasdiseased')
             .init();
     }
 
@@ -353,8 +353,6 @@ $(function () {
         };
     }
     init();
-
-
     function  nation1(){
         var national = [
             "汉族", "壮族", "满族", "回族", "苗族", "维吾尔族", "土家族", "彝族", "蒙古族", "藏族", "布依族", "侗族", "瑶族", "朝鲜族", "白族", "哈尼族",
