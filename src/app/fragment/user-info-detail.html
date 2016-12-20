@@ -3,7 +3,7 @@
 <!--基本信息-->
 <div class="page">
     <header class="page__hd">
-        <h1 class="page__title">基本信息</h1>
+        <h1 class="page__title"></h1>
     </header>
     <section class="page__bd">
         <div class="weui-cells weui-cells_form">
@@ -30,13 +30,11 @@
             </div>
             <div class="weui-cell weui-cell_select weui-cell_select-after">
                 <div class="weui-cell__hd">
-                    <label for="" class="weui-label">国家/地区</label>
+                    <label for="" class="weui-label">民族</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">汉族</option>
-                        <option value="2">蒙古族</option>
-                        <option value="3">布依族</option>
+                    <select class="weui-select" id="national" onclick="nation1();" name="select2">
+
                     </select>
                 </div>
             </div>
@@ -61,11 +59,9 @@
                     <label for="" class="weui-label">出生日期</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">2016</option>
-                        <option value="2">2017</option>
-                        <option value="3">2018</option>
-                    </select>
+                    <input type="date" class="weui-select" name="select2" />
+
+
                 </div>
             </div>
             <div class="weui-cell weui-cell_select weui-cell_select-after">
@@ -140,6 +136,7 @@
                 </div>
                 <div class="weui-cell__bd">
                     <select class="weui-select" name="select2">
+                        <option value="0"></option>
                         <option value="1">1500以下</option>
                         <option value="2">1500-3000</option>
                         <option value="3">3000-5000</option>
@@ -160,13 +157,15 @@
             </div>
             <div class="weui-cell weui-cell_select weui-cell_select-after">
                 <div class="weui-cell__hd">
+                    <p>重庆省重庆市两江新区</p>
                     <label for="" class="weui-label">居住地址</label>
                 </div>
                 <div class="weui-cell__bd">
                     <select class="weui-select" name="select2">
-                        <option value="1">两江新区1</option>
-                        <option value="2">两江新区2</option>
-                        <option value="3">两江新区3</option>
+                        <option value="1">请选择街道</option>
+                        <option value="2">两江新区1</option>
+                        <option value="3">两江新区2</option>
+                        <option value="4">两江新区3</option>
                     </select>
                 </div>
             </div>
@@ -178,6 +177,8 @@
                     <i class="weui-icon-warn"></i>
                 </div>
             </div>
+            <div class="weui-cell ">
+            </div>
         </div>
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
@@ -186,3 +187,6 @@
     <footer class="page__ft">
     </footer>
 </div>
+<script type="text/javascript">
+
+</script>
