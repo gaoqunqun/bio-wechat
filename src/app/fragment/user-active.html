@@ -17,6 +17,12 @@
                 </div>
             </div>
             <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+                </div>
+            </div>
+            <div class="weui-cell">
                 <div class="weui-cell__hd"><label class="weui-label">设置密码</label></div>
                 <div class="weui-cell__bd">
                     <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
@@ -39,9 +45,9 @@
             </div>
         </div>
 
-        <label for="weuiAgree" class="weui-agree">
+        <label class="weui-agree">
             <span class="weui-agree__text">
-                已激活用户请直接<a href="javascript:void(0);">登录</a>
+                已激活用户请直接<a href="javascript:void(0);" class="js-router" data-router="protocal">登录</a>
             </span>
         </label>
 

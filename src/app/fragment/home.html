@@ -1,100 +1,72 @@
-<div class="page">
-  <div class="page__hd">
-    <h1 class="page__title">项目名称</h1>
-  </div>
-  <div class="page__bd">
-    <div class="weui-cells weui-cells_form">
-      <div class="weui-cell weui-cell_warn">
-        <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
-        </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
-        </div>
-      </div>
-      <div class="weui-cell">
-        <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
-        </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
-        </div>
-      </div>
-      <div class="weui-cell">
-        <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="text" placeholder=""/>
-        </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
-        </div>
-      </div>
-      <div class="weui-cell weui-cell_select">
-        <div class="weui-cell__bd">
-          <select class="weui-select" name="select1">
-            <option selected="" value="1">性别</option>
-            <option value="2">男</option>
-            <option value="3">女</option>
-          </select>
-        </div>
-      </div>
-      <div class="weui-cell weui-cell_select">
-        <div class="weui-cell__bd">
-          <select class="weui-select" name="select1" disabled="disabled">
-            <option selected="" value="1">出生日期</option>
-          </select>
-        </div>
-      </div>
-      <div class="weui-cell weui-cell_select">
-        <div class="weui-cell__bd">
-          <select class="weui-select" name="select1">
-            <option selected="" value="1">街道名称</option>
-            <option value="2">重庆市两江新区</option>
-            <option value="3">重庆市XX区</option>
-          </select>
-        </div>
-      </div>
-      <div class="weui-cell">
-        <div class="weui-cell__hd"><label class="weui-label">详细住址</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="text" placeholder=""/>
-        </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
-        </div>
-      </div>
 
-    </div>
-    <label class="weui-agree">
-            <span class="weui-agree__text">
-                点击“提交”按钮，即表示同意<a href="javascript:void(0);" class="js-router" data-router="navbar">《项目协议书》</a>条款
-            </span>
-    </label>
+<!--重庆市两江新区糖尿病健康管理-->
 
-    <div class="weui-btn-area">
-      <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
+<style type="text/css">
+    .weui-media-box__desc{
+        color: #6baae8;
+    }
+    .page{
+        background:#f8f5ee;
+    }
+    .weui-panel{
+        background:#f8f5ee;
+    }
+</style>
+<div class="page gallery js_show">
+    <header class="page__hd">
+        <h3 class="page__title">轮播图效果</h3>
+    </header>
+    <section class="page__bd">
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>风险提示</p>
+                    <p style="font-size: 13px;color: #888888;">糖尿病前期</p>
+                </div>
+                <div class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                    <img src="images/pic_160.png" style="width: 50px;display: block"/>
+                    <p class="" >名字</p>
+                </div>
+            </div>
+        </div>
+        <div class="weui-cell weui-cell_access">
+            <p>糖尿病筛查预防项目指引</p>
+        </div>
+            <div class="page__bd">
+                <div class="weui-panel weui-panel_access">
+                    <div class="weui-panel__bd">
+                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+                            <div class="weui-media-box__hd">
+                                1
+                            </div>
+                            <div class="weui-media-box__bd">
+                                <h4 class="weui-media-box__title">信息调查</h4>
+                                <p class="weui-media-box__desc">请完善</p>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+                            <div class="weui-media-box__hd">
+                                2
+                            </div>
+                            <div class="weui-media-box__bd">
+                                <h4 class="weui-media-box__title">体格检测、眼项检测</h4>
+                                <p class="weui-media-box__desc">预约</p>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+                            <div class="weui-media-box__hd">
+                                3
+                            </div>
+                            <div class="weui-media-box__bd">
+                                <h4 class="weui-media-box__title">等待基础筛查结果</h4>
+                                <p class="weui-media-box__desc"></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="page__ft">
+        <p>咨询电话：400-12345678</p>
     </div>
-  </div>
-  <div class="page__ft">
-    咨询电话：400-12345678
-  </div>
 </div>
-<script type="text/javascript">
-  $(function () {
-    var $tooltips = $('.js_tooltips');
-
-    $('#showTooltips').on('click', function () {
-      if ($tooltips.css('display') != 'none') return;
-
-      // toptips的fixed, 如果有`animation`, `position: fixed`不生效
-      $('.page.cell').removeClass('slideIn');
-
-      $tooltips.css('display', 'block');
-      setTimeout(function () {
-        $tooltips.css('display', 'none');
-      }, 2000);
-    });
-  });
-</script>
