@@ -13,84 +13,102 @@
 
     <div class="container" id="container"></div>
 
-    <script type="text/html" id="tpl_home">
+    <script type="text/html" id="tpl_apply">
 <div class="page">
   <div class="page__hd">
     <h1 class="page__title">项目名称</h1>
   </div>
   <div class="page__bd">
     <div class="weui-cells weui-cells_form">
-      <div class="weui-cell weui-cell_warn">
-        <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+      <form>
+        <div class="weui-cell weui-cell_vcode">
+          <div class="weui-cell__hd">
+            <label class="weui-label">手机号</label>
+          </div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="tel" pattern="[0-9]*"  maxlength="11" placeholder="请输入手机号">
+          </div>
+          <div class="weui-cell__ft">
+            <button class="weui-vcode-btn">获取验证码</button>
+          </div>
         </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
+        <div class="weui-cell">
+          <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" name="identityNum" type="number" pattern="[0-9]*" placeholder=""/>
+          </div>
+          <div class="weui-cell__ft">
+            <i class="weui-icon-warn"></i>
+          </div>
         </div>
-      </div>
-      <div class="weui-cell">
-        <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+        <div class="weui-cell ">
+            <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
+            <div class="weui-cell__bd">
+              <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+            </div>
         </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
+        <div class="weui-cell">
+          <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder=""/>
+          </div>
+          <div class="weui-cell__ft">
+            <i class="weui-icon-warn"></i>
+          </div>
         </div>
-      </div>
-      <div class="weui-cell">
-        <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="text" placeholder=""/>
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+          <div class="weui-cell__hd">
+            <label for="" class="weui-label">性别</label>
+          </div>
+          <div class="weui-cell__bd">
+            <select class="weui-select" name="select2">
+              <option value="1">男</option>
+              <option value="2">女</option>
+              <option value="3">其他</option>
+            </select>
+          </div>
         </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+          <div class="weui-cell__hd">
+            <label for="" class="weui-label">出生日期</label>
+          </div>
+          <div class="weui-cell__bd">
+            <input class="weui-select"  type="date"／>
+
+          </div>
         </div>
-      </div>
-      <div class="weui-cell weui-cell_select">
-        <div class="weui-cell__bd">
-          <select class="weui-select" name="select1">
-            <option selected="" value="1">性别</option>
-            <option value="2">男</option>
-            <option value="3">女</option>
-          </select>
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+          <div class="weui-cell__hd">
+            <label for="" class="weui-label">居住地址</label>
+          </div>
+          <div class="weui-cell__bd">
+            <select class="weui-select" name="select2">
+              <option value="1">请选择街道</option>
+              <option value="2">两江新区</option>
+              <option value="3">三江新区</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="weui-cell weui-cell_select">
-        <div class="weui-cell__bd">
-          <select class="weui-select" name="select1" disabled="disabled">
-            <option selected="" value="1">出生日期</option>
-          </select>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请填写小区名称楼号门牌号等信息"/>
+          </div>
+          <div class="weui-cell__ft">
+            <i class="weui-icon-warn"></i>
+          </div>
         </div>
-      </div>
-      <div class="weui-cell weui-cell_select">
-        <div class="weui-cell__bd">
-          <select class="weui-select" name="select1">
-            <option selected="" value="1">街道名称</option>
-            <option value="2">重庆市两江新区</option>
-            <option value="3">重庆市XX区</option>
-          </select>
-        </div>
-      </div>
-      <div class="weui-cell">
-        <div class="weui-cell__hd"><label class="weui-label">详细住址</label></div>
-        <div class="weui-cell__bd">
-          <input class="weui-input" type="text" placeholder=""/>
-        </div>
-        <div class="weui-cell__ft">
-          <i class="weui-icon-warn"></i>
-        </div>
-      </div>
+      </form>
+
 
     </div>
     <label class="weui-agree">
             <span class="weui-agree__text">
-                点击“提交”按钮，即表示同意<a href="javascript:void(0);" class="js-router" data-router="navbar">《项目协议书》</a>条款
+                点击“提交”按钮，即表示同意<a href="javascript:void(0);" class="js-router" data-router="protocal">《项目协议书》</a>条款
             </span>
     </label>
 
     <div class="weui-btn-area">
-      <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
+      <a class="weui-btn weui-btn_primary" href="javascript:" id="submit">提交</a>
     </div>
   </div>
   <div class="page__ft">
@@ -99,122 +117,125 @@
 </div>
 <script type="text/javascript">
   $(function () {
-    var $tooltips = $('.js_tooltips');
 
-    $('#showTooltips').on('click', function () {
-      if ($tooltips.css('display') != 'none') return;
+    $('#submit').on('click', function () {
+      var postData = {};
+      $.ajax({
+        url: remoteHost + 'action.php',
+        type: 'post',
+        data: $('.weui-cells_form form').serializeArray().forEach(function(v){postData[v.name] = v.value}),
+        success: function(res) {
+          location.hash = 'check-info';
+        },
+        error: function(ex) {
+          pageManager.showTooltip('errorMsg');
+        }
+      });
 
-      // toptips的fixed, 如果有`animation`, `position: fixed`不生效
-      $('.page.cell').removeClass('slideIn');
-
-      $tooltips.css('display', 'block');
-      setTimeout(function () {
-        $tooltips.css('display', 'none');
-      }, 2000);
     });
   });
 </script>
 </script>
-    <script type="text/html" id="tpl_home-main">
+    <script type="text/html" id="tpl_home">
 
 <!--重庆市两江新区糖尿病健康管理-->
 
 <style type="text/css">
 
-    .jssorb05{position:absolute}.jssorb05 div,.jssorb05 div:hover,.jssorb05 .av{position:absolute;width:16px;height:16px;background:url('images/b05.png') no-repeat;overflow:hidden;cursor:pointer}.jssorb05 div{background-position:-7px -7px}.jssorb05 div:hover,.jssorb05 .av:hover{background-position:-37px -7px}.jssorb05 .av{background-position:-67px -7px}.jssorb05 .dn,.jssorb05 .dn:hover{background-position:-97px -7px}.jssora22l,.jssora22r{display:block;position:absolute;width:40px;height:58px;cursor:pointer;background:url('images/a22.png') center center no-repeat;overflow:hidden}.jssora22l{background-position:-10px -31px}.jssora22r{background-position:-70px -31px}.jssora22l:hover{background-position:-130px -31px}.jssora22r:hover{background-position:-190px -31px}.jssora22l.jssora22ldn{background-position:-250px -31px}.jssora22r.jssora22rdn{background-position:-310px -31px}.jssora22l.jssora22lds{background-position:-10px -31px;opacity:.3;pointer-events:none}.jssora22r.jssora22rds{background-position:-70px -31px;opacity:.3;pointer-events:none}
-    .weui-media-box__desc{
-        color: #6baae8;
-    }
-    .page{
-        background:#f8f5ee;
-    }
-    .weui-panel{
-        background:#f8f5ee;
-    }
-    .main-page__hd{
-        padding:0;
-        overflow:hidden;
-    }
-    .main-page{
-        padding:0;
-    }
+  .jssorb05{position:absolute}.jssorb05 div,.jssorb05 div:hover,.jssorb05 .av{position:absolute;width:16px;height:16px;background:url('images/b05.png') no-repeat;overflow:hidden;cursor:pointer}.jssorb05 div{background-position:-7px -7px}.jssorb05 div:hover,.jssorb05 .av:hover{background-position:-37px -7px}.jssorb05 .av{background-position:-67px -7px}.jssorb05 .dn,.jssorb05 .dn:hover{background-position:-97px -7px}.jssora22l,.jssora22r{display:block;position:absolute;width:40px;height:58px;cursor:pointer;background:url('images/a22.png') center center no-repeat;overflow:hidden}.jssora22l{background-position:-10px -31px}.jssora22r{background-position:-70px -31px}.jssora22l:hover{background-position:-130px -31px}.jssora22r:hover{background-position:-190px -31px}.jssora22l.jssora22ldn{background-position:-250px -31px}.jssora22r.jssora22rdn{background-position:-310px -31px}.jssora22l.jssora22lds{background-position:-10px -31px;opacity:.3;pointer-events:none}.jssora22r.jssora22rds{background-position:-70px -31px;opacity:.3;pointer-events:none}
+  .weui-media-box__desc{
+    color: #6baae8;
+  }
+  .page{
+    background:#f8f5ee;
+  }
+  .weui-panel{
+    background:#f8f5ee;
+  }
+  .main-page__hd{
+    padding:0;
+    overflow:hidden;
+  }
+  .main-page{
+    padding:0;
+  }
 
 </style>
 <div class="page main-page">
-    <header class="page__hd main-page__hd" >
-        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
-            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-                <div data-p="225.00">
-                    <img data-u="image" src="images/red.jpg" />
-                </div>
-                <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
-                <div data-p="225.00" style="display: none;">
-                    <img data-u="image" src="images/purple.jpg" />
-                </div>
-                <div data-p="225.00" data-po="80% 55%" style="display: none;">
-                    <img data-u="image" src="images/blue.jpg" />
-                </div>
-            </div>
-            <!-- Bullet Navigator -->
-            <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-                <!-- bullet navigator item prototype -->
-                <div data-u="prototype" style="width:16px;height:16px;"></div>
-            </div>
+  <header class="page__hd main-page__hd" >
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+      <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+        <div data-p="225.00">
+          <img data-u="image" src="images/red.jpg" />
         </div>
-    </header>
-    <section class="page__bd">
-        <div class="weui-cells">
-            <div class="weui-cell">
-                <div class="weui-cell__bd">
-                    <p>风险提示</p>
-                    <p style="font-size: 13px;color: #888888;">糖尿病前期</p>
-                </div>
-                <div class="weui-cell__hd" style="position: relative;margin-right: 10px; text-align:center;">
-                    <img src="images/pic_160.png" style="width: 50px;display: block"/>
-                    <p class="" >名字</p>
-                </div>
-            </div>
+        <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+        <div data-p="225.00" style="display: none;">
+          <img data-u="image" src="images/purple.jpg" />
         </div>
-        <div class="weui-cell weui-cell_access">
-            <p>糖尿病筛查预防项目指引</p>
+        <div data-p="225.00" data-po="80% 55%" style="display: none;">
+          <img data-u="image" src="images/blue.jpg" />
         </div>
-            <div class="page__bd">
-                <div class="weui-panel weui-panel_access">
-                    <div class="weui-panel__bd">
-                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
-                            <div class="weui-media-box__hd">
-                                1
-                            </div>
-                            <div class="weui-media-box__bd">
-                                <h4 class="weui-media-box__title">信息调查</h4>
-                                <p class="weui-media-box__desc">请完善</p>
-                            </div>
-                        </a>
-                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
-                            <div class="weui-media-box__hd">
-                                2
-                            </div>
-                            <div class="weui-media-box__bd">
-                                <h4 class="weui-media-box__title">体格检测、眼项检测</h4>
-                                <p class="weui-media-box__desc">预约</p>
-                            </div>
-                        </a>
-                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
-                            <div class="weui-media-box__hd">
-                                3
-                            </div>
-                            <div class="weui-media-box__bd">
-                                <h4 class="weui-media-box__title">等待基础筛查结果</h4>
-                                <p class="weui-media-box__desc"> </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+      </div>
+      <!-- Bullet Navigator -->
+      <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+        <!-- bullet navigator item prototype -->
+        <div data-u="prototype" style="width:16px;height:16px;"></div>
+      </div>
+    </div>
+  </header>
+  <section class="page__bd">
+    <div class="weui-cells">
+      <div class="weui-cell">
+        <div class="weui-cell__bd">
+          <p>风险提示</p>
+          <p style="font-size: 13px;color: #888888;">糖尿病前期</p>
+        </div>
+        <div class="weui-cell__hd" style="position: relative;margin-right: 10px; text-align:center;">
+          <img src="images/pic_160.png" style="width: 50px;display: block"/>
+          <p class="" >名字</p>
+        </div>
+      </div>
+    </div>
+    <div class="weui-cell weui-cell_access">
+      <p>糖尿病筛查预防项目指引</p>
+    </div>
+    <div class="page__bd">
+      <div class="weui-panel weui-panel_access">
+        <div class="weui-panel__bd">
+          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+              1
             </div>
-    </section>
-    <footer class="page__ft">
-        <p>咨询电话：400-12345678</p>
-    </footer>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">信息调查</h4>
+              <p class="weui-media-box__desc">请完善</p>
+            </div>
+          </a>
+          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+              2
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">体格检测、眼项检测</h4>
+              <p class="weui-media-box__desc">预约</p>
+            </div>
+          </a>
+          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+              3
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">等待基础筛查结果</h4>
+              <p class="weui-media-box__desc"> </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page__ft">
+    <p>咨询电话：400-12345678</p>
+  </footer>
 </div>
 <script type="text/javascript">
     (function(g,h,c,j,d,l,k){/*! Jssor */

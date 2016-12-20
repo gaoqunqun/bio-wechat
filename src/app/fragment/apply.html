@@ -1,0 +1,121 @@
+<div class="page">
+  <div class="page__hd">
+    <h1 class="page__title">项目名称</h1>
+  </div>
+  <div class="page__bd">
+    <div class="weui-cells weui-cells_form">
+      <form>
+        <div class="weui-cell weui-cell_vcode">
+          <div class="weui-cell__hd">
+            <label class="weui-label">手机号</label>
+          </div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="tel" pattern="[0-9]*"  maxlength="11" placeholder="请输入手机号">
+          </div>
+          <div class="weui-cell__ft">
+            <button class="weui-vcode-btn">获取验证码</button>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" name="identityNum" type="number" pattern="[0-9]*" placeholder=""/>
+          </div>
+          <div class="weui-cell__ft">
+            <i class="weui-icon-warn"></i>
+          </div>
+        </div>
+        <div class="weui-cell ">
+            <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
+            <div class="weui-cell__bd">
+              <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+            </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder=""/>
+          </div>
+          <div class="weui-cell__ft">
+            <i class="weui-icon-warn"></i>
+          </div>
+        </div>
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+          <div class="weui-cell__hd">
+            <label for="" class="weui-label">性别</label>
+          </div>
+          <div class="weui-cell__bd">
+            <select class="weui-select" name="select2">
+              <option value="1">男</option>
+              <option value="2">女</option>
+              <option value="3">其他</option>
+            </select>
+          </div>
+        </div>
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+          <div class="weui-cell__hd">
+            <label for="" class="weui-label">出生日期</label>
+          </div>
+          <div class="weui-cell__bd">
+            <input class="weui-select"  type="date"／>
+
+          </div>
+        </div>
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+          <div class="weui-cell__hd">
+            <label for="" class="weui-label">居住地址</label>
+          </div>
+          <div class="weui-cell__bd">
+            <select class="weui-select" name="select2">
+              <option value="1">请选择街道</option>
+              <option value="2">两江新区</option>
+              <option value="3">三江新区</option>
+            </select>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请填写小区名称楼号门牌号等信息"/>
+          </div>
+          <div class="weui-cell__ft">
+            <i class="weui-icon-warn"></i>
+          </div>
+        </div>
+      </form>
+
+
+    </div>
+    <label class="weui-agree">
+            <span class="weui-agree__text">
+                点击“提交”按钮，即表示同意<a href="javascript:void(0);" class="js-router" data-router="protocal">《项目协议书》</a>条款
+            </span>
+    </label>
+
+    <div class="weui-btn-area">
+      <a class="weui-btn weui-btn_primary" href="javascript:" id="submit">提交</a>
+    </div>
+  </div>
+  <div class="page__ft">
+    咨询电话：400-12345678
+  </div>
+</div>
+<script type="text/javascript">
+  $(function () {
+
+    $('#submit').on('click', function () {
+      var postData = {};
+      $.ajax({
+        url: remoteHost + 'action.php',
+        type: 'post',
+        data: $('.weui-cells_form form').serializeArray().forEach(function(v){postData[v.name] = v.value}),
+        success: function(res) {
+          location.hash = 'check-info';
+        },
+        error: function(ex) {
+          pageManager.showTooltip('errorMsg');
+        }
+      });
+
+    });
+  });
+</script>
