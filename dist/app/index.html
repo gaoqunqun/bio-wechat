@@ -1436,6 +1436,71 @@
     </div>
 </div>
 </script>
+    <script type="text/html" id="tpl_OGTT-testing">
+
+
+<!--OGTT检测-->
+
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>空腹血糖：</p>
+                </div>
+                <div class="weui-cell__ft">5.6mmol/L</div>
+            </div>
+        </div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>服糖2小时后血糖：</p>
+                </div>
+                <div class="weui-cell__ft">7.1mmol/L</div>
+            </div>
+        </div>
+        <p>如若您对体检数据有异议，请致电********咨询</p>
+    </div>
+    <div class="page__ft">
+        <a href="javascript:home()">查看全部</a>
+    </div>
+</div>
+</script>
+    <script type="text/html" id="tpl_OGTT-alltesting">
+
+<!--全部OGTT检测-->
+
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>创建时间：</p>
+                </div>
+                <div class="weui-cell__ft">2016-11-12</div>
+            </a>
+        </div>
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>创建时间：</p>
+                </div>
+                <div class="weui-cell__ft">2016-10-10</div>
+            </a>
+        </div>
+    </div>
+    <div class="page__ft">
+    </div>
+</div>
+</script>
 
 
     <script type="text/html" id="tpl_user-state">
@@ -2058,97 +2123,68 @@
         <h1 class="page__title"></h1>
     </header>
     <section class="page__bd">
-        <div class="weui-cells weui-cells_form">
-            <div class="weui-cell ">
-                <div class="weui-cell__hd"><label class="weui-label">身高</label></div>
+        <div class="weui-cells">
+            <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="text"  placeholder="170cm"/>
+                    <p>身高</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
-            </div>
-            <div class="weui-cell ">
-                <div class="weui-cell__hd"><label class="weui-label">体重</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="text" placeholder="51kg"/>
-                </div>
-
+                <div class="weui-cell__ft">170cm</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">腰围</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="number"  placeholder="70cm"/>
+                    <p>体重</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">51kg</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">臀围</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="88cm"/>
+                    <p>腰围</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">70cm</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">BMI</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="19.7kg/m"/>
+                    <p>臀围</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">88cm</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">体脂率</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="23%"/>
+                    <p>BMI</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">19.7kg/m</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">收缩压</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="125mmHg"/>
+                    <p>体脂率</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">23%</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">舒张压</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="58mmHg"/>
+                    <p>收缩压</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">125mmHg</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">空腹血糖(末梢)</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="4.8mmoI/L"/>
+                    <p>舒张压</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">58mmHg</div>
             </div>
             <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">血氧</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="numbe" placeholder="95%"/>
+                    <p>空腹血糖(末梢)</p>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
-                </div>
+                <div class="weui-cell__ft">4.8mmol/L</div>
             </div>
             <div class="weui-cell">
-
+                <div class="weui-cell__bd">
+                    <p>血氧</p>
+                </div>
+                <div class="weui-cell__ft">95%</div>
+            </div>
+            <div class="weui-cell">
             </div>
         </div>
         <div style="text-align: center;">
