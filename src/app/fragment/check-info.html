@@ -30,7 +30,13 @@
         <button class="weui-btn weui-btn_primary" type="button">确定</button>
     </footer>
 </div>
-
+<script type="text/javascript">
+    $(function(){
+        $('.weui-btn_primary').click(function(){
+            wx.closeWindow();
+        });
+    });
+</script>
 
 
 
