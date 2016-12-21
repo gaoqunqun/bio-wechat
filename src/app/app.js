@@ -1,29 +1,16 @@
-<<<<<<< HEAD
-var ACCESS_TOKEN = '8OkncZ0VGr33OqdEBY4UQSEIF_DE5dAGv-68zoThXZkTskBUSNqtSzJYCQ24sz2rld2Hs2ey4xMEKy172Z1Yei7kFwJIdL_tWSpEHOk9MfhlVPlSfeQFrP4F7yZneZp6FNPdAJAJRT';
-var jsapi_ticket = 'kgt8ON7yVITDhtdwci0qeciU0gL6Qd_bmQ9TuL769h0q9xaTIqL-FEm8g19tUyf4ayLjpqMdAqfMu3c144nWWw';
-=======
 var ACCESS_TOKEN = 'EDUPRpVbfuSz6y7CJh_o3jK6l_avNEDrqPQyuxpBnTnlsaD72z14j2Rfcn-O9fnLCZO3YzunXo56OC30u9Hht9sCzRakJ9Nkclba67djYJakNaFCEdPmLoNjvjopk7aVPMNiAEAZWX';
 var jsapi_ticket = 'kgt8ON7yVITDhtdwci0qeciU0gL6Qd_bmQ9TuL769h0MMOmalxZ0LGLUXvKuxP1R1L6uwcz-Ofzjql3PFBPHeg';
->>>>>>> sstm888/pr/1
 var menuConfig = '{\
                     "button":[\
                         {\
                             "type":"view",\
                             "name":"在线报名",\
-<<<<<<< HEAD
-                            "url":"http://wwwv.applinzi.com/index.php#apply"\
-=======
                             "url":"http://wwwv.applinzi.com/dist/app/index.php#apply"\
->>>>>>> sstm888/pr/1
                         },\
                         {\
                             "type":"view",\
                             "name":"在线筛查",\
-<<<<<<< HEAD
-                            "url":"http://wwwv.applinzi.com/index.php#filtrate"\
-=======
                             "url":"http://wwwv.applinzi.com/dist/app/index.php#home"\
->>>>>>> sstm888/pr/1
                         },\
                         {\
                             "name":"需要帮助",\
@@ -31,22 +18,11 @@ var menuConfig = '{\
                                 {\
                                     "type":"view",\
                                     "name":"激活账号",\
-<<<<<<< HEAD
-                                    "url":"http://wwwv.applinzi.com/login.php#activate"\
-=======
                                     "url":"http://wwwv.applinzi.com/dist/app/index.php#user-active"\
->>>>>>> sstm888/pr/1
                                 },\
                                 {\
                                     "type":"view",\
                                     "name":"忘记密码",\
-<<<<<<< HEAD
-                                    "url":"http://wwwv.applinzi.com/login.php#forget"\
-                                }]\
-                        }]\
-                }';
-
-=======
                                     "url":"http://wwwv.applinzi.com/dist/app/index.php#user-forgotpassword"\
                                 }]\
                         }]\
@@ -56,7 +32,6 @@ var SESSION = {
   id: null,
   expires: null
 };
->>>>>>> sstm888/pr/1
 $(function () {
   $(document).on('click', function (e) {
     var target = $(e.target);
@@ -66,6 +41,7 @@ $(function () {
       window.pageManager.go(router);
     }
   });
+
   var pageManager = {
     $container: $('#container'),
     loginUrl: remoteHost + 'checkLogin.php',
@@ -146,12 +122,12 @@ $(function () {
         });
       }
     },
-    getCookie: function(key){
+    getCookie: function (key) {
       var reg = /([^=]*)=([^=]*)(?:;|$)/g;
       var result = document.cookie.match(reg);
       var obj = {};
-      if(result.length){
-        result.forEach(function(v){
+      if (result) {
+        result.forEach(function (v) {
           var d = reg.exec(v);
           var key = d[1];
           var value = d[2];
@@ -160,7 +136,7 @@ $(function () {
       }
       return obj[key];
     },
-    setCookie: function(key, value){
+    setCookie: function (key, value) {
       document.cookie = key + '=' + value;
     },
     checkLogin: function (checkType) {
@@ -170,7 +146,7 @@ $(function () {
           url: this.loginUrl,
           type: 'get',
           data: {
-            openID:'',
+            openID: '',
             phoneNum: self.getCookie('phoneNum')
           },
           success: function (res) {
@@ -184,11 +160,11 @@ $(function () {
           self.ajaxManager(config);
         }, 0);
       }
-      if(checkType === 'local'){
+      if (checkType === 'local') {
         var cookie = document.cookie;
-        if(/SESSION/.test(cookie)){
+        if (/SESSION/.test(cookie)) {
           self.deffered.success({login: 'logged'});
-        }else{
+        } else {
           self.deffered.fail(ex);
         }
       }
@@ -199,19 +175,23 @@ $(function () {
       if (!config) {
         return;
       }
-      this.checkLogin('remote').then(
-        //success
-        function (res) {
-          if (res.login === 'logged') {
-            location.hash = config.url;
-          } else {
-            location.hash = 'login';
+      if (to === 'home') {//需要登陆验证的页面
+        this.checkLogin('remote').then(
+          //success
+          function (res) {
+            if (res.login === 'logged') {
+              location.hash = config.url;
+            } else {
+              location.hash = 'login';
+            }
+          },
+          //fail
+          function (ex) {
           }
-        },
-        //fail
-        function (ex) {
-        }
-      );
+        );
+      } else {
+        location.hash = config.url;
+      }
     },
     _go: function (config) {
       this._pageIndex++;
@@ -459,23 +439,7 @@ $(function () {
         error: function (ex) {
           console.log(ex);
         }
-<<<<<<< HEAD
-        pageManager
-            .setPageAppend(function($html){
-                var $foot = $html.find('.page__ft');
-                if($foot.length < 1) return;
-
-                if($foot.position().top + $foot.height() < winH){
-                    $foot.addClass('j_bottom');
-                }else{
-                    $foot.removeClass('j_bottom');
-                }
-            })
-            .setDefault('family-hasdiseased')
-            .init();
-=======
       });
->>>>>>> sstm888/pr/1
     }
 
     // });
@@ -498,28 +462,6 @@ $(function () {
     for (var page in pages) {
       pageManager.push(pages[page]);
     }
-<<<<<<< HEAD
-    init();
-    function  nation1(){
-        var national = [
-            "汉族", "壮族", "满族", "回族", "苗族", "维吾尔族", "土家族", "彝族", "蒙古族", "藏族", "布依族", "侗族", "瑶族", "朝鲜族", "白族", "哈尼族",
-            "哈萨克族", "黎族", "傣族", "畲族", "傈僳族", "仡佬族", "东乡族", "高山族", "拉祜族", "水族", "佤族", "纳西族", "羌族", "土族", "仫佬族", "锡伯族",
-            "柯尔克孜族", "达斡尔族", "景颇族", "毛南族", "撒拉族", "布朗族", "塔吉克族", "阿昌族", "普米族", "鄂温克族", "怒族", "京族", "基诺族", "德昂族", "保安族",
-            "俄罗斯族", "裕固族", "乌孜别克族", "门巴族", "鄂伦春族", "独龙族", "塔塔尔族", "赫哲族", "珞巴族"
-        ];
-        var nat = document.getElementById ("national");
-        for ( var i = 0; i < national.length; i++){
-            var option = document.createElement ('option');
-            option.value = i;
-            var txt = document.createTextNode (national[i]);
-            option.appendChild (txt);
-            nat.appendChild (option);
-        }
-    }
-    window.nation1 = nation1;
-
-});
-=======
     pageManager
       .setPageAppend(function ($html) {
         var $foot = $html.find('.page__ft');
@@ -534,19 +476,6 @@ $(function () {
       .setDefault('home')
       .init();
   }
-
-
-  //function ajaxManager(url, type, data){
-  //    $.ajax({
-  //        url: url,
-  //        type: type || 'post',
-  //        data: data,
-  //        success: function(res){
-  //
-  //        },
-  //        error: function(ex){}
-  //    });
-  //}
 
 
   function init() {
@@ -564,6 +493,33 @@ $(function () {
   }
 
   init();
+  function nation1() {
+    var national = [
+      "汉族", "壮族", "满族", "回族", "苗族", "维吾尔族", "土家族", "彝族", "蒙古族", "藏族", "布依族", "侗族", "瑶族", "朝鲜族", "白族", "哈尼族",
+      "哈萨克族", "黎族", "傣族", "畲族", "傈僳族", "仡佬族", "东乡族", "高山族", "拉祜族", "水族", "佤族", "纳西族", "羌族", "土族", "仫佬族", "锡伯族",
+      "柯尔克孜族", "达斡尔族", "景颇族", "毛南族", "撒拉族", "布朗族", "塔吉克族", "阿昌族", "普米族", "鄂温克族", "怒族", "京族", "基诺族", "德昂族", "保安族",
+      "俄罗斯族", "裕固族", "乌孜别克族", "门巴族", "鄂伦春族", "独龙族", "塔塔尔族", "赫哲族", "珞巴族"
+    ];
+    var nat = document.getElementById("national");
+    for (var i = 0; i < national.length; i++) {
+      var option = document.createElement('option');
+      option.value = i;
+      var txt = document.createTextNode(national[i]);
+      option.appendChild(txt);
+      nat.appendChild(option);
+    }
+  }
+
+  window.nation1 = nation1;
+
+  $('body').append('<div id="hashMaps" style="position: fixed; z-index: 9999; right: 10px; bottom: 10px; background: #fff; opacity: 0.5; min-width:100px;height:200px; overflow: scroll"><b id="closeThis" onclick="$(\'#hashMaps\').hide()" style="position:absolute;right:0px;top:0px;">X</b></div>');
+  $('[id*=tpl_]').each(function (i, e) {
+    var hash = $(e).attr('id').replace('tpl_', '');
+    $('#hashMaps').append('<a href="#' + hash + '">' + hash + '</a><br>');
+  });
+
 });
 
->>>>>>> sstm888/pr/1
+
+
+
