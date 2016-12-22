@@ -4,18 +4,18 @@
     margin-top: @weuiCellsMarginTop;
     background-color: @weuiCellBg;
     line-height: @weuiCellLineHeight;
-    font-size: @weuiCellFontSize; //cell中间有效高度23px，跟客户端默认图标尺寸一致
+    font-size: @weuiCellFirstFontSize; //cell中间有效高度23px，跟客户端默认图标尺寸一致
 
     overflow: hidden; //因为每个cell的border使用before元素left搞的，ie下伪元素的containing block估计跟标准不同，在cell上用oh不生效
 
     // onepx
     position: relative;
-    &:before {
-        .setTopLine(@weuiCellBorderColor);
-    }
-    &:after {
-        .setBottomLine(@weuiCellBorderColor);
-    }
+    //&:before {
+    //    .setTopLine(@weuiCellBorderColor);
+    //}
+    //&:after {
+    //    .setBottomLine(@weuiCellBorderColor);
+    //}
 }
 
 .weui-cells__title {
@@ -40,19 +40,34 @@
 }
 
 .weui-cell {
-    padding: @weuiCellGapV @weuiCellGapH;
+    box-sizing: border-box;
+    padding: 2rem @weuiCellGapV 0.7rem @weuiCellGapH;
     position: relative; //这个是为了兼容cells容器onepx方案被before挡住而做的
     display: flex;
     align-items: center;
     &:before {
         .setTopLine(@weuiCellBorderColor);
         left: @weuiCellGapH;
+        right:@weuiCellGapH;
     }
     &:first-child {
         &:before {
             display: none;
         }
     }
+}
+.weui-cell_last{
+    padding-top:1rem;
+}
+.weui-cell-p{
+    position:relative;
+}
+.weui-cell__p{
+    font-size:0.8rem;
+    color: #e9a536;
+    position: absolute;
+    top:0.6rem;
+    left:1rem;
 }
 .weui-cell_primary{
     align-items: flex-start;

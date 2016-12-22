@@ -1,11 +1,27 @@
+
+
+<style type="text/css">
+  .weui-select{
+    line-height:18px;
+    height:18px;
+  }
+  .weui-agree__text{
+    line-height:2rem;
+  }
+  .weui-agree__text a{
+    text-decoration: underline;
+    color:blue;
+  }
+</style>
+
 <div class="page">
   <div class="page__hd">
-    <h1 class="page__title">项目名称</h1>
+    <h1 class="page__title">名称</h1>
   </div>
   <div class="page__bd">
     <div class="weui-cells weui-cells_form">
       <form>
-        <div class="weui-cell weui-cell_vcode">
+        <div class="weui-cell">
           <div class="weui-cell__hd">
             <label class="weui-label">手机号</label>
           </div>
@@ -17,7 +33,9 @@
           </div>
         </div>
         <div class="weui-cell">
-          <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
+          <div class="weui-cell__hd">
+            <label class="weui-label">验证码</label>
+          </div>
           <div class="weui-cell__bd">
             <input class="weui-input" name="identityNum" type="number" pattern="[0-9]*" placeholder=""/>
           </div>
@@ -61,14 +79,14 @@
 
           </div>
         </div>
-        <div class="weui-cell weui-cell_select weui-cell_select-after">
-          <div class="weui-cell__hd">
-            <p>重庆省重庆市两江新区</p>  <!--修改样式-->
+        <div class="weui-cell weui-cell_select weui-cell_select-after weui-cell-p">
+          <p class="weui-cell__p">重庆省重庆市两江新区</p>  <!--修改样式-->
+          <div class="weui-cell__hd ">
             <label for="" class="weui-label">居住地址</label>
           </div>
           <div class="weui-cell__bd">
             <select class="weui-select" name="select2">
-              <option value="1">请选择街道</option>
+              <option value="1" class="weui-cell-place">请选择街道</option>
               <option value="2">两江新区</option>
               <option value="3">三江新区</option>
             </select>
@@ -76,11 +94,14 @@
         </div>
         <div class="weui-cell">
           <div class="weui-cell__bd">
-            <input class="weui-input" type="text" placeholder="请填写小区名称楼号门牌号等信息"/>
+            <input class="weui-input weui-cell-place" type="text" placeholder="请填写小区名称楼号门牌号等信息"/>
           </div>
           <div class="weui-cell__ft">
             <i class="weui-icon-warn"></i>
           </div>
+        </div>
+        <div class="weui-cell weui-cell_last">
+
         </div>
       </form>
 

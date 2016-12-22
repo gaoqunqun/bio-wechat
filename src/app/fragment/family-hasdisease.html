@@ -1,7 +1,14 @@
 
 
 <!--家族有疾病史-->
-
+<style type="text/css">
+    .weui-cell_last{
+        padding-bottom: 0;
+    }
+    .weui-cell__add{
+        background:#f8f5ee;
+    }
+</style>
 <div class="page">
     <header class="page__hd">
         <h1 class="page__title"></h1>
@@ -26,8 +33,11 @@
             <div class="weui-cell weui-cells_form">
                 <div class="weui-cell__hd"><label class="weui-label">患者年龄</label></div>
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder=""/>
+                    <input class="weui-input" type="text"  placeholder=""/>
                 </div>
+            </div>
+            <div class="weui-cell weui-cell_last">
+
             </div>
         </div>
         <div class="button-sp-area">
@@ -42,16 +52,20 @@
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">腰椎间盘突出</a>
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">尿酸升高</a>
         </div>
-        <div class="weui-cells weui-cells_form ">
-            <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="text"  placeholder=""/>
+        <div class="weui-cells weui-cell__add">
+            <div class="weui-cell weui-cells_form">
+                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder=""/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_last">
+
             </div>
         </div>
 
     </section>
     <footer class="page__ft">
-        <a href="javascript:;" class="weui-btn weui-btn_warn">删除</a>
         <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
     </footer>
 </div>
