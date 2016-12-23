@@ -604,9 +604,6 @@
 
 <style type="text/css">
     .jssorb05{position:absolute}.jssorb05 div,.jssorb05 div:hover,.jssorb05 .av{position:absolute;width:16px;height:16px;background:url('images/b05.png') no-repeat;overflow:hidden;cursor:pointer}.jssorb05 div{background-position:-7px -7px}.jssorb05 div:hover,.jssorb05 .av:hover{background-position:-37px -7px}.jssorb05 .av{background-position:-67px -7px}.jssorb05 .dn,.jssorb05 .dn:hover{background-position:-97px -7px}.jssora22l,.jssora22r{display:block;position:absolute;width:40px;height:58px;cursor:pointer;background:url('images/a22.png') center center no-repeat;overflow:hidden}.jssora22l{background-position:-10px -31px}.jssora22r{background-position:-70px -31px}.jssora22l:hover{background-position:-130px -31px}.jssora22r:hover{background-position:-190px -31px}.jssora22l.jssora22ldn{background-position:-250px -31px}.jssora22r.jssora22rdn{background-position:-310px -31px}.jssora22l.jssora22lds{background-position:-10px -31px;opacity:.3;pointer-events:none}.jssora22r.jssora22rds{background-position:-70px -31px;opacity:.3;pointer-events:none}
-    .page{
-        background:#f8f5ee;
-    }
     .appointed .weui-panel{
         background:#f8f5ee;
     }
@@ -616,36 +613,104 @@
     }
     .appointed .user_name{
         display:flex;
-        line-height:2rem;
+        line-height:2.5rem;
+        height:3rem;
+
     }
     .appointed .user_name__show{
         flex:1;
         border:1px solid #ccc;
+        display:flex;
+        box-sizing: border-box;
     }
     .appointed .user_name__tip{
-        flex:1.5;
+        flex:3;
         border:1px solid #ccc;
+        box-sizing: border-box;
+        padding:0 0.4rem;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+
+    }
+    .appointed .user_name .user_name__tip span{
+        font-size:1rem;
+        color:#f00;
+        padding-left:0.4rem
     }
     .appointed .user_name__tip span,.weui-cell__compelet{
         font-size:0.8rem;
         color:#f00;
     }
+
+    .appointed .user_name img{
+        flex:1;
+        width:1.3rem;
+        padding:0.5rem;
+
+    }
+    .appointed .user_name span{
+        flex:2;
+        line-height:3rem;
+        text-align: center;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+    .appointed .user_name i{
+        flex:1;
+        line-height:3rem;
+        text-align: center;
+
+    }
     .appointed .weui-cell__link{
         font-size:0.5rem;
         color:#ccc;
     }
+    .appointed .page__hd{
+        padding:0.7rem;
+        background:#fff;
+    }
+    .appointed .weui-cell-nopadding{
+        padding:0.7rem 0;
+    }
+    .appointed .weui-cell-p{
+        padding:0;
+        margin: 0.7rem 0;
+        background:#fff;
+        text-indent:0.5rem;
+        border:1px solid #ccc;
+        border-radius:5px;
+    }
+    .appointed .weui-cell-p p{
+        line-height:2rem;
+
+    }
+    .appointed .page__bd .page__bd__content{
+        padding:0;
+    }
+    .appointed .page__bd__content .weui-panel:before{
+        border:0;
+    }
+    .appointed .page__bd__content .weui-cell{
+        padding-top:1rem;
+        padding-bottom:1.5rem;
+    }
+
 </style>
 <div class="page appointed js_show">
     <header class="page__hd">
         <p class="page__title">咨询热线 400-12345678</p>
         <div class="page__desc user_name">
-            <div  class="user_name__show"><i>头像</i><span>蓝赞</span> &gt;</div>
-            <div class="user_name__tip"><i>糖尿病风险提示: </i><span>糖尿病前期</span></div>
+            <div  class="user_name__show">
+                <img src="images/red.jpg">
+                <span>蓝赞蓝赞蓝赞</span>
+                <i>&gt;</i>
+            </div>
+            <div class="user_name__tip"><i>糖尿病风险提示: </i><span>糖尿病前期糖尿病前期</span></div>
 
         </div>
-    </header>
-    <section class="page__bd">
-        <div class="weui-cell">
+        <div class="weui-cell weui-cell-nopadding">
             <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
                 <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                     <div data-p="225.00">
@@ -663,10 +728,12 @@
                 </div>
             </div>
         </div>
-        <div class="weui-cell weui-cell_access">
+    </header>
+    <section class="page__bd">
+        <div class="weui-cell weui-cell-p">
             <p>糖尿病筛查预防项目指引</p>
         </div>
-        <div class="page__bd">
+        <div class="page__bd page__bd__content">
             <div class="weui-panel weui-panel_access">
                 <div class="weui-panel__bd">
                     <a class="weui-cell weui-cell_access" href="javascript:;">
