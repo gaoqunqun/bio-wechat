@@ -62,20 +62,17 @@
         text-align: center;
 
     }
-    .appointed .weui-cell__link{
-        font-size:0.5rem;
-        color:#ccc;
-    }
     .appointed .page__hd{
         padding:0.7rem;
         background:#fff;
+        border-bottom:1px solid #ccc;
     }
     .appointed .weui-cell-nopadding{
         padding:0.7rem 0;
     }
     .appointed .weui-cell-p{
         padding:0;
-        margin: 0.7rem 0;
+        margin:0;
         background:#fff;
         text-indent:0.5rem;
         border:1px solid #ccc;
@@ -88,14 +85,54 @@
     .appointed .page__bd .page__bd__content{
         padding:0;
     }
-    .appointed .page__bd__content .weui-panel:before{
+    .appointed .page__bd__content .weui-panel:before,.appointed .page__bd__content .weui-cell:before,.appointed .page__bd__content .weui-panel:after{
         border:0;
     }
     .appointed .page__bd__content .weui-cell{
         padding-top:1rem;
-        padding-bottom:1.5rem;
+        padding-bottom:1rem;
     }
+    .appointed .page__bd__content .weui-cell_access{
+        line-height:1.5rem;
 
+    }
+    .appointed .page__bd__content .weui-cell_primary{
+        background: #fff;
+        box-sizing: border-box;
+        padding:0.4rem 0.7rem;
+    }
+    .appointed .page__bd__content .weui-cell_primary em{
+        float:right;
+        font-size:0.8rem;
+        color:#555;
+    }
+    .appointed .page__bd__content .weui-cell__hd-title{
+        background: #fff;
+        width:1.5rem;
+        padding:0.1rem;
+        text-align: center;
+        border-radius: 50%;
+        border:1px solid #ccc;
+        margin-right:0.7rem;
+    }
+    .appointed .page__bd__content .weui-cell_primary_time,.appointed .page__bd__content .weui-cell_primary_place{
+        font-size:0.8rem;
+        color:#555;
+        line-height:1.5rem;
+    }
+    .appointed .page__bd__content .weui-cell-btn button{
+        font-size:0.8rem;
+        color:#555;
+        line-height:1.2rem;
+        padding:0 0.7rem;
+        margin:0 0.3rem;
+        border:1px solid #ccc;
+        background: #fff;
+        border-radius: 4px;
+    }
+    .appointed .page__ft{
+        padding:0;
+    }
 </style>
 <div class="page appointed js_show">
     <header class="page__hd">
@@ -135,33 +172,32 @@
         <div class="page__bd page__bd__content">
             <div class="weui-panel weui-panel_access">
                 <div class="weui-panel__bd">
-                    <a class="weui-cell weui-cell_access" href="javascript:;">
-                        <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                    <div class="weui-cell weui-cell_access" >
+                        <div class="weui-cell__hd weui-cell__hd-title">1</div>
                         <div class="weui-cell__bd weui-cell_primary">
-                            <p>信息调查 <span class="weui-cell__compelet">完成度<i>100%</i></span></p>
+                            <p>信息调查 <span class="weui-cell__compelet">完成度<i>100%</i></span><em>编辑</em></p>
                         </div>
-                        <span class="weui-cell__link">编辑</span>
-                    </a>
-                    <a class="weui-cell weui-cell_access" href="javascript:;">
-                        <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                    </div>
+                    <div class="weui-cell weui-cell_access" >
+                        <div class="weui-cell__hd weui-cell__hd-title">2</div>
                         <div class="weui-cell__bd weui-cell_primary">
-                            <p>体格检测、眼项检测</p>
-                            <p>检测时间：<span>2017-01-17 14:00-15:00</span></p>
-                            <p>检测地点：<span>健康小屋1（两江区金山街金渝大道100号1层101号）</span></p>
-                            <div>
+                            <p>体格检测、眼项检测<em></em></p>
+                            <p class="weui-cell_primary_time">检测时间：<span>2017-01-17 14:00-15:00</span></p>
+                            <p class="weui-cell_primary_place">检测地点：<span>健康小屋1（两江区金山街金渝大道100号1层101号）</span></p>
+                            <div class="weui-cell-btn">
                                 <button>取消</button>
                                 <button>修改预约</button>
+                                <button>查看详情</button>
                             </div>
                         </div>
-                        <span class="weui-cell__link">预约</span>
-                    </a>
-                    <a class="weui-cell weui-cell_access" href="javascript:;">
-                        <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                    </div>
+                    <div class="weui-cell weui-cell_access" >
+                        <div class="weui-cell__hd weui-cell__hd-title">3</div>
                         <div class="weui-cell__bd weui-cell_primary">
-                            <p>等待基础筛查结果</p>
+                            <p>等待基础筛查结果<em></em></p>
                         </div>
 
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

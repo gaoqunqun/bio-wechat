@@ -663,20 +663,17 @@
         text-align: center;
 
     }
-    .appointed .weui-cell__link{
-        font-size:0.5rem;
-        color:#ccc;
-    }
     .appointed .page__hd{
         padding:0.7rem;
         background:#fff;
+        border-bottom:1px solid #ccc;
     }
     .appointed .weui-cell-nopadding{
         padding:0.7rem 0;
     }
     .appointed .weui-cell-p{
         padding:0;
-        margin: 0.7rem 0;
+        margin:0;
         background:#fff;
         text-indent:0.5rem;
         border:1px solid #ccc;
@@ -689,14 +686,54 @@
     .appointed .page__bd .page__bd__content{
         padding:0;
     }
-    .appointed .page__bd__content .weui-panel:before{
+    .appointed .page__bd__content .weui-panel:before,.appointed .page__bd__content .weui-cell:before,.appointed .page__bd__content .weui-panel:after{
         border:0;
     }
     .appointed .page__bd__content .weui-cell{
         padding-top:1rem;
-        padding-bottom:1.5rem;
+        padding-bottom:1rem;
     }
+    .appointed .page__bd__content .weui-cell_access{
+        line-height:1.5rem;
 
+    }
+    .appointed .page__bd__content .weui-cell_primary{
+        background: #fff;
+        box-sizing: border-box;
+        padding:0.4rem 0.7rem;
+    }
+    .appointed .page__bd__content .weui-cell_primary em{
+        float:right;
+        font-size:0.8rem;
+        color:#555;
+    }
+    .appointed .page__bd__content .weui-cell__hd-title{
+        background: #fff;
+        width:1.5rem;
+        padding:0.1rem;
+        text-align: center;
+        border-radius: 50%;
+        border:1px solid #ccc;
+        margin-right:0.7rem;
+    }
+    .appointed .page__bd__content .weui-cell_primary_time,.appointed .page__bd__content .weui-cell_primary_place{
+        font-size:0.8rem;
+        color:#555;
+        line-height:1.5rem;
+    }
+    .appointed .page__bd__content .weui-cell-btn button{
+        font-size:0.8rem;
+        color:#555;
+        line-height:1.2rem;
+        padding:0 0.7rem;
+        margin:0 0.3rem;
+        border:1px solid #ccc;
+        background: #fff;
+        border-radius: 4px;
+    }
+    .appointed .page__ft{
+        padding:0;
+    }
 </style>
 <div class="page appointed js_show">
     <header class="page__hd">
@@ -736,33 +773,32 @@
         <div class="page__bd page__bd__content">
             <div class="weui-panel weui-panel_access">
                 <div class="weui-panel__bd">
-                    <a class="weui-cell weui-cell_access" href="javascript:;">
-                        <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                    <div class="weui-cell weui-cell_access" >
+                        <div class="weui-cell__hd weui-cell__hd-title">1</div>
                         <div class="weui-cell__bd weui-cell_primary">
-                            <p>信息调查 <span class="weui-cell__compelet">完成度<i>100%</i></span></p>
+                            <p>信息调查 <span class="weui-cell__compelet">完成度<i>100%</i></span><em>编辑</em></p>
                         </div>
-                        <span class="weui-cell__link">编辑</span>
-                    </a>
-                    <a class="weui-cell weui-cell_access" href="javascript:;">
-                        <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                    </div>
+                    <div class="weui-cell weui-cell_access" >
+                        <div class="weui-cell__hd weui-cell__hd-title">2</div>
                         <div class="weui-cell__bd weui-cell_primary">
-                            <p>体格检测、眼项检测</p>
-                            <p>检测时间：<span>2017-01-17 14:00-15:00</span></p>
-                            <p>检测地点：<span>健康小屋1（两江区金山街金渝大道100号1层101号）</span></p>
-                            <div>
+                            <p>体格检测、眼项检测<em></em></p>
+                            <p class="weui-cell_primary_time">检测时间：<span>2017-01-17 14:00-15:00</span></p>
+                            <p class="weui-cell_primary_place">检测地点：<span>健康小屋1（两江区金山街金渝大道100号1层101号）</span></p>
+                            <div class="weui-cell-btn">
                                 <button>取消</button>
                                 <button>修改预约</button>
+                                <button>查看详情</button>
                             </div>
                         </div>
-                        <span class="weui-cell__link">预约</span>
-                    </a>
-                    <a class="weui-cell weui-cell_access" href="javascript:;">
-                        <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                    </div>
+                    <div class="weui-cell weui-cell_access" >
+                        <div class="weui-cell__hd weui-cell__hd-title">3</div>
                         <div class="weui-cell__bd weui-cell_primary">
-                            <p>等待基础筛查结果</p>
+                            <p>等待基础筛查结果<em></em></p>
                         </div>
 
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1489,9 +1525,10 @@
         position: relative;
     }
     .family-disease .weui-btn_mini{
+        font-size: 1rem;
         position:absolute;
-        top:2.6rem;
-        right:1rem;
+        top:1rem;
+        right:0.7rem;
     }
     .family-disease .tips{
         font-size:0.8rem;
@@ -1506,10 +1543,7 @@
 
     </div>
     <div class="page__bd">
-        <article class="weui-article">
             <a href="javascript:;" class="weui-btn weui-btn_primary"><i class="weui-icon-cancel"></i>添加</a>
-
-        </article>
     </div>
     <div class="page__ft">
 
@@ -1525,11 +1559,38 @@
 
 <!--家族有疾病史-->
 <style type="text/css">
+    .family-hasdisease{
+        line-height:1rem;
+    }
+    .family-hasdisease .page__hd{
+        padding:0;
+    }
     .family-hasdisease .weui-cell_last{
         padding-bottom: 0;
     }
     .family-hasdisease .weui-cell__add{
         background:#f8f5ee;
+    }
+    .family-hasdisease .weui-cell__add label{
+        width:50px;
+    }
+    .family-hasdisease .weui-cells_form{
+        padding-top:0.5rem;
+    }
+    .family-hasdisease .weui-btn_mini{
+        font-size:1rem;
+        color:#000;
+        background:#fff;
+        padding-left:0.4rem;
+        padding-right:0.4rem;
+        margin-right:0.4rem;
+    }
+    .family-hasdisease .weui-cell_last-other:before{
+        left:0;
+        right:0;
+    }
+    .family-hasdisease label{
+        width:105px;
     }
 </style>
 <div class="page family-hasdisease">
@@ -1546,10 +1607,12 @@
                 <div class="weui-cell__bd">
                     <select class="weui-select" name="select2">
                         <option value="0"></option>
-                        <option value="1">父母</option>
-                        <option value="2">祖父母</option>
-                        <option value="3">外祖父母</option>
-                        <option value="4">子女</option>
+                        <option value="1">父亲</option>
+                        <option value="2">母亲</option>
+                        <option value="3">兄弟</option>
+                        <option value="4">姐妹</option>
+                        <option value="4">儿子</option>
+                        <option value="4">女儿</option>
                     </select>
                 </div>
             </div>
@@ -1582,7 +1645,7 @@
                     <input class="weui-input" type="text"  placeholder=""/>
                 </div>
             </div>
-            <div class="weui-cell weui-cell_last">
+            <div class="weui-cell weui-cell_last weui-cell_last-other">
 
             </div>
         </div>
@@ -1600,17 +1663,51 @@
 
 
 <style type="text/css">
-    .family-hasdiseased page__hd{
-        position: relative;
-    }
-    .family-hasdiseased .weui-btn_mini{
-        position:absolute;
-        top:2.6rem;
-        right:1rem;
-    }
     .family-hasdiseased .tips{
         font-size:0.8rem;
         color:#555;
+    }
+    .family-hasdiseased .weui-form-preview:before,.family-hasdiseased .weui-form-preview:after{
+        border:0;
+    }
+    .family-hasdiseased .weui-form-preview{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom:1rem;
+        border:1px solid #ccc;
+    }
+    .family-hasdiseased .weui-form-preview__value{
+        font-size:1rem;
+    }
+    .family-hasdiseased .weui-form-preview__hd{
+        padding-bottom:0;
+    }
+    .family-hasdiseased .weui-form-preview__hd:after{
+        right:1rem;
+    }
+    .family-hasdiseased .weui-form-preview__label{
+        font-size: 1rem;
+        color:#000;
+    }
+    .family-hasdiseased .weui-form-preview__label i{
+        font-size: 0.8rem;
+        color:#555;
+    }
+    .family-hasdiseased .weui-form-preview__value i{
+        font-size: 0.8rem;
+        color:#555;
+    }
+    .family-hasdiseased .weui-form-preview__bd{
+        text-align:left;
+    }
+    .family-hasdiseased .weui-form-item button{
+        font-size:1.1rem;
+        color:#e9a22c;
+        margin-right:0.7rem;
+    }
+    .family-hasdiseased .page__ft{
+        padding-top:0;
     }
 </style>
 <div class="page family-hasdiseased">
@@ -1623,46 +1720,44 @@
             <div class="weui-form-preview">
                 <div class="weui-form-preview__hd">
                     <div class="weui-form-preview__item">
-                        <label class="weui-form-preview__label">父母<i>(与患者关系)</i></label>
-                        <em class="weui-form-preview__value">58岁（患病年纪）</em>
+                        <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
+                        <em class="weui-form-preview__value">58岁<i>（患病年纪）</i></em>
                     </div>
                 </div>
                 <div class="weui-form-preview__bd">
-                    <div class="weui-form-preview__item">
-                        <label class="weui-form-preview__label">所患疾病</i></label>
-                        <span class="weui-form-preview__value">
-                            <i>高血脂</i>
-                            <i>骨质酥松</i>
-                            <i>痛风</i>
-                            <i>高血压</i>
-                            <i>糖调节受损失</i>
-                            <i>慢性肝炎或肝硬化</i>
-                        </span>
-                    </div>
-                </div>
-
-            </div>
-            <br>
-            <div class="weui-form-preview">
-                <div class="weui-form-preview__hd">
-                    <label class="weui-form-preview__label">父母<i>(与患者关系)</i></label>
-                    <em class="weui-form-preview__value">58岁（患病年纪）</em>
-                </div>
-                <div class="weui-form-preview__bd">
-                    <div class="weui-form-preview__item">
-                        <label class="weui-form-preview__label">所患疾病</label>
-                        <div class="weui-form-preview__value">
-                            <i>高血脂</i>
-                        </div>
-                    </div>
+                    <p >所患疾病</p>
+                    <span class="weui-form-item">
+                        <button>高血脂</button>
+                        <button>骨质酥松</button>
+                        <button>痛风</button>
+                        <button>高血压</button>
+                        <button>糖调节受损失</button>
+                        <button>慢性肝炎或肝硬化</button>
+                    </span>
                 </div>
             </div>
+        <div class="weui-form-preview">
+            <div class="weui-form-preview__hd">
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
+                    <em class="weui-form-preview__value">58岁<i>（患病年纪）</i></em>
+                </div>
+            </div>
+            <div class="weui-form-preview__bd">
+                <p >所患疾病</p>
+                <span class="weui-form-item">
+                        <button>高血脂</button>
+                        <button>骨质酥松</button>
+                        <button>痛风</button>
+                        <button>高血压</button>
+                        <button>糖调节受损失</button>
+                        <button>慢性肝炎或肝硬化</button>
+                    </span>
+            </div>
+        </div>
     </section>
     <footer class="page__ft">
-        <article class="weui-article">
             <a href="javascript:;" class="weui-btn weui-btn_primary"><i class="weui-icon-cancel"></i>添加</a>
-
-        </article>
     </footer>
 </div>
 
@@ -1675,11 +1770,43 @@
 
 
 <!--过敏史-->
-
-
-
-
-
+<style type="text/css">
+    .allergy .page__hd{
+        padding:0;
+    }
+    .allergy .weui-btn_primary{
+        font-size:1.1rem;
+        margin-right:0.5rem;
+        margin-top:0.7rem;
+        color:#000;
+        background: #fff;
+        padding-left:0.7rem;
+        padding-right:0.7rem;
+    }
+    .allergy .weui-btn_primary:after{
+        border:0;
+    }
+    .allergy .button-sp-area{
+        line-height:1rem;
+    }
+    .allergy .weui-cells{
+        background:#f8f5ee;
+    }
+    .allergy .weui-cell_last-other:before{
+        left:0;
+        right:0;
+    }
+    .allergy label{
+        width:50px;
+    }
+    .allergy .weui-cells_form{
+        padding-top:0;
+    }
+    .allergy .page__ft .weui-btn_primary{
+        background: #E9A22C;
+        color:#fff;
+    }
+</style>
 <div class="page allergy">
     <div class="page__hd">
         <h1 class="page__title"></h1>
@@ -1701,15 +1828,19 @@
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">洗洁剂</a>
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">化妆品</a>
         </div>
-        <div class="weui-cells weui-cells_form ">
-            <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="text"  placeholder=""/>
+        <div class="weui-cells weui-cell__add">
+            <div class="weui-cell weui-cells_form">
+                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder=""/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_last weui-cell_last-other">
+
             </div>
         </div>
     </div>
     <div class="page__ft">
-        <a href="javascript:;" class="weui-btn weui-btn_warn">删除</a>
         <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
     </div>
 </div>
@@ -1720,10 +1851,32 @@
 
 <!--已有过敏史-->
 
-
-
-
-
+<style type="text/css">
+    .allergy-history .page__title{
+        font-size:1rem;
+    }
+    .allergy-history .page__bd{
+        padding-top:0;
+    }
+    .allergy-history .page__bd .weui-media-box__title{
+        font-size:0.8rem;
+        color:#555;
+    }
+    .allergy-history .page__bd .weui-btn_mini{
+        font-size:1rem;
+        color:#E9A22C;
+        background:#fff;
+        line-height:1.5rem;
+        margin-top:0;
+        padding-left: 0.3rem;
+        padding-right:0.3rem;
+    }
+    .allergy-history .page__bd .weui-btn_mini:after{
+        border:0;
+        width:0;
+        height:0;
+    }
+</style>
 <div class="page allergy-history">
     <div class="page__hd">
         <h1 class="page__title">您目前或曾经对哪些物质过敏？</h1>
@@ -1755,6 +1908,31 @@
 
 
 <!--眼项检测列表-->
+<style type="text/css">
+    .eye-testingList .page__hd{
+        padding:0;
+    }
+    .eye-testingList .weui-select{
+        font-size:0.9rem;
+        padding: 0 1rem;
+        text-align: right;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .eye-testingList .weui-label{
+        width:105px;
+        color:#000;
+    }
+    .eye-testingList .weui-cell{
+        padding-top:1.5rem;
+        padding-bottom:1.5rem;
+    }
+    .eye-testingList .weui-cells{
+        margin-top:0.7rem;
+    }
+</style>
+
 
 <div class="page eye-testingList">
     <div class="page__hd">
@@ -1768,9 +1946,9 @@
                     <label for="" class="weui-label">2017-10-15</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">查看报告</option>
-                    </select>
+                    <div class="weui-select" name="select2">
+                        查看报告
+                    </div>
                 </div>
             </div>
         </div>
@@ -1780,9 +1958,9 @@
                     <label for="" class="weui-label">2017-07-15</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">查看报告</option>
-                    </select>
+                    <div class="weui-select" name="select2">
+                        查看报告
+                    </div>
                 </div>
             </div>
         </div>
@@ -1792,9 +1970,9 @@
                     <label for="" class="weui-label">2017-06-15</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">查看报告</option>
-                    </select>
+                    <div class="weui-select" name="select2">
+                        查看报告
+                    </div>
                 </div>
             </div>
         </div>
@@ -1804,9 +1982,9 @@
                     <label for="" class="weui-label">2017-04-15</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">查看报告</option>
-                    </select>
+                    <div class="weui-select" name="select2">
+                        查看报告
+                    </div>
                 </div>
             </div>
         </div>
@@ -1816,9 +1994,9 @@
                     <label for="" class="weui-label">2017-02-15</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">查看报告</option>
-                    </select>
+                    <div class="weui-select" name="select2">
+                        查看报告
+                    </div>
                 </div>
             </div>
         </div>
@@ -1828,9 +2006,9 @@
                     <label for="" class="weui-label">2017-01-15</label>
                 </div>
                 <div class="weui-cell__bd">
-                    <select class="weui-select" name="select2">
-                        <option value="1">查看报告</option>
-                    </select>
+                    <div class="weui-select" name="select2">
+                        查看报告
+                    </div>
                 </div>
             </div>
         </div>
@@ -1845,7 +2023,22 @@
 
 
 <!--基因检测报告-->
-
+<style type="text/css">
+    .gene-testingReport .page__hd{
+        padding:0;
+    }
+    .gene-testingReport .page__bd .weui-cell__check{
+        font-size:0.9rem;
+        color:#E9A22C;
+    }
+    .gene-testingReport .page__bd .weui-cell{
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .gene-testingReport .page__bd .weui-cell__bd{
+        padding-left:0.7rem;
+    }
+</style>
 <div class="page gene-testingReport">
     <div class="page__hd">
         <h1 class="page__title"></h1>
@@ -1860,7 +2053,7 @@
                 <div class="weui-cell__bd">
                     <p> 报告</p>
                 </div>
-                <div class="weui-cell__hd">
+                <div class="weui-cell__hd weui-cell__check">
                     <p>查看</p>
                 </div>
             </a>
@@ -1873,7 +2066,7 @@
                 <div class="weui-cell__bd">
                     <p> 报告</p>
                 </div>
-                <div class="weui-cell__hd">
+                <div class="weui-cell__hd weui-cell__check">
                     <p>查看</p>
                 </div>
             </a>
@@ -1886,7 +2079,7 @@
                 <div class="weui-cell__bd">
                     <p> 报告</p>
                 </div>
-                <div class="weui-cell__hd">
+                <div class="weui-cell__hd weui-cell__check">
                     <p>查看</p>
                 </div>
             </a>
@@ -1901,6 +2094,26 @@
 
 
 <!--OGTT检测-->
+<style type="text/css">
+    .OGTT-testing .page__hd{
+        padding:0;
+    }
+    .OGTT-testing .page__bd .weui-cells{
+        margin-top:0.7rem;
+    }
+    .OGTT-testing .page__bd .weui-cell{
+        padding-top:1rem;
+        padding-bottom: 0.7rem;
+    }
+    .OGTT-testing .page__ft p{
+        text-align: right;
+        color:#f47171;
+    }
+    .OGTT-testing .page__ft a{
+        font-size:1rem;
+        color:#000;
+    }
+</style>
 
 <div class="page OGTT-testing">
     <div class="page__hd">
@@ -1924,9 +2137,10 @@
                 <div class="weui-cell__ft">7.1mmol/L</div>
             </div>
         </div>
-        <p>如若您对体检数据有异议，请致电********咨询</p>
+
     </div>
     <div class="page__ft">
+        <p>如若您对体检数据有异议，请致电********咨询</p>
         <a href="javascript:home()">查看全部</a>
     </div>
 </div>
@@ -1934,6 +2148,19 @@
     <script type="text/html" id="tpl_OGTT-alltesting">
 
 <!--全部OGTT检测-->
+<style type="text/css">
+    .OGTT-alltesting .page__hd{
+        padding:0;
+    }
+    .OGTT-alltesting .page__bd .weui-cell{
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .OGTT-alltesting .page__bd .weui-cells{
+        margin-top:0.7rem;
+    }
+</style>
+
 
 <div class="page OGTT-alltesting">
     <div class="page__hd">

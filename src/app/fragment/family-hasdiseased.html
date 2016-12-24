@@ -4,17 +4,51 @@
 
 
 <style type="text/css">
-    .family-hasdiseased page__hd{
-        position: relative;
-    }
-    .family-hasdiseased .weui-btn_mini{
-        position:absolute;
-        top:2.6rem;
-        right:1rem;
-    }
     .family-hasdiseased .tips{
         font-size:0.8rem;
         color:#555;
+    }
+    .family-hasdiseased .weui-form-preview:before,.family-hasdiseased .weui-form-preview:after{
+        border:0;
+    }
+    .family-hasdiseased .weui-form-preview{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom:1rem;
+        border:1px solid #ccc;
+    }
+    .family-hasdiseased .weui-form-preview__value{
+        font-size:1rem;
+    }
+    .family-hasdiseased .weui-form-preview__hd{
+        padding-bottom:0;
+    }
+    .family-hasdiseased .weui-form-preview__hd:after{
+        right:1rem;
+    }
+    .family-hasdiseased .weui-form-preview__label{
+        font-size: 1rem;
+        color:#000;
+    }
+    .family-hasdiseased .weui-form-preview__label i{
+        font-size: 0.8rem;
+        color:#555;
+    }
+    .family-hasdiseased .weui-form-preview__value i{
+        font-size: 0.8rem;
+        color:#555;
+    }
+    .family-hasdiseased .weui-form-preview__bd{
+        text-align:left;
+    }
+    .family-hasdiseased .weui-form-item button{
+        font-size:1.1rem;
+        color:#e9a22c;
+        margin-right:0.7rem;
+    }
+    .family-hasdiseased .page__ft{
+        padding-top:0;
     }
 </style>
 <div class="page family-hasdiseased">
@@ -27,46 +61,44 @@
             <div class="weui-form-preview">
                 <div class="weui-form-preview__hd">
                     <div class="weui-form-preview__item">
-                        <label class="weui-form-preview__label">父母<i>(与患者关系)</i></label>
-                        <em class="weui-form-preview__value">58岁（患病年纪）</em>
+                        <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
+                        <em class="weui-form-preview__value">58岁<i>（患病年纪）</i></em>
                     </div>
                 </div>
                 <div class="weui-form-preview__bd">
-                    <div class="weui-form-preview__item">
-                        <label class="weui-form-preview__label">所患疾病</i></label>
-                        <span class="weui-form-preview__value">
-                            <i>高血脂</i>
-                            <i>骨质酥松</i>
-                            <i>痛风</i>
-                            <i>高血压</i>
-                            <i>糖调节受损失</i>
-                            <i>慢性肝炎或肝硬化</i>
-                        </span>
-                    </div>
-                </div>
-
-            </div>
-            <br>
-            <div class="weui-form-preview">
-                <div class="weui-form-preview__hd">
-                    <label class="weui-form-preview__label">父母<i>(与患者关系)</i></label>
-                    <em class="weui-form-preview__value">58岁（患病年纪）</em>
-                </div>
-                <div class="weui-form-preview__bd">
-                    <div class="weui-form-preview__item">
-                        <label class="weui-form-preview__label">所患疾病</label>
-                        <div class="weui-form-preview__value">
-                            <i>高血脂</i>
-                        </div>
-                    </div>
+                    <p >所患疾病</p>
+                    <span class="weui-form-item">
+                        <button>高血脂</button>
+                        <button>骨质酥松</button>
+                        <button>痛风</button>
+                        <button>高血压</button>
+                        <button>糖调节受损失</button>
+                        <button>慢性肝炎或肝硬化</button>
+                    </span>
                 </div>
             </div>
+        <div class="weui-form-preview">
+            <div class="weui-form-preview__hd">
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
+                    <em class="weui-form-preview__value">58岁<i>（患病年纪）</i></em>
+                </div>
+            </div>
+            <div class="weui-form-preview__bd">
+                <p >所患疾病</p>
+                <span class="weui-form-item">
+                        <button>高血脂</button>
+                        <button>骨质酥松</button>
+                        <button>痛风</button>
+                        <button>高血压</button>
+                        <button>糖调节受损失</button>
+                        <button>慢性肝炎或肝硬化</button>
+                    </span>
+            </div>
+        </div>
     </section>
     <footer class="page__ft">
-        <article class="weui-article">
             <a href="javascript:;" class="weui-btn weui-btn_primary"><i class="weui-icon-cancel"></i>添加</a>
-
-        </article>
     </footer>
 </div>
 

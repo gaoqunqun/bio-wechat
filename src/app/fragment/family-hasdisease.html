@@ -2,11 +2,38 @@
 
 <!--家族有疾病史-->
 <style type="text/css">
+    .family-hasdisease{
+        line-height:1rem;
+    }
+    .family-hasdisease .page__hd{
+        padding:0;
+    }
     .family-hasdisease .weui-cell_last{
         padding-bottom: 0;
     }
     .family-hasdisease .weui-cell__add{
         background:#f8f5ee;
+    }
+    .family-hasdisease .weui-cell__add label{
+        width:50px;
+    }
+    .family-hasdisease .weui-cells_form{
+        padding-top:0.5rem;
+    }
+    .family-hasdisease .weui-btn_mini{
+        font-size:1rem;
+        color:#000;
+        background:#fff;
+        padding-left:0.4rem;
+        padding-right:0.4rem;
+        margin-right:0.4rem;
+    }
+    .family-hasdisease .weui-cell_last-other:before{
+        left:0;
+        right:0;
+    }
+    .family-hasdisease label{
+        width:105px;
     }
 </style>
 <div class="page family-hasdisease">
@@ -23,10 +50,12 @@
                 <div class="weui-cell__bd">
                     <select class="weui-select" name="select2">
                         <option value="0"></option>
-                        <option value="1">父母</option>
-                        <option value="2">祖父母</option>
-                        <option value="3">外祖父母</option>
-                        <option value="4">子女</option>
+                        <option value="1">父亲</option>
+                        <option value="2">母亲</option>
+                        <option value="3">兄弟</option>
+                        <option value="4">姐妹</option>
+                        <option value="4">儿子</option>
+                        <option value="4">女儿</option>
                     </select>
                 </div>
             </div>
@@ -59,7 +88,7 @@
                     <input class="weui-input" type="text"  placeholder=""/>
                 </div>
             </div>
-            <div class="weui-cell weui-cell_last">
+            <div class="weui-cell weui-cell_last weui-cell_last-other">
 
             </div>
         </div>
