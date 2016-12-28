@@ -15,6 +15,7 @@
 
     <script type="text/html" id="tpl_apply">
 
+<!--在线报名-->
 
 <style type="text/css">
   .weui-select{
@@ -36,7 +37,7 @@
   </div>
   <div class="page__bd">
     <div class="weui-cells weui-cells_form">
-      <form>
+      <form name="" method="" action="">
         <div class="weui-cell">
           <div class="weui-cell__hd">
             <label class="weui-label">手机号</label>
@@ -117,11 +118,8 @@
           </div>
         </div>
         <div class="weui-cell weui-cell_last">
-
         </div>
       </form>
-
-
     </div>
     <label class="weui-agree">
             <span class="weui-agree__text">
@@ -235,7 +233,7 @@
   }
 </style>
 <div class="page main-page">
-  <header class="page__hd main-page__hd" >
+  <div class="page__hd main-page__hd" >
     <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
       <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <div data-p="225.00">
@@ -252,8 +250,8 @@
         <div data-u="prototype" style="width:16px;height:16px;"></div>
       </div>
     </div>
-  </header>
-  <section class="page__bd">
+  </div>
+  <div class="page__bd">
     <div class="weui-cells">
       <div class="weui-cell">
         <div class="weui-cell__bd">
@@ -300,10 +298,10 @@
         </div>
       </div>
     </div>
-  </section>
-  <footer class="page__ft">
+  </div>
+  <div class="page__ft">
     <p>咨询电话：400-12345678</p>
-  </footer>
+  </div>
 </div>
 <script type="text/javascript">
     (function(g,h,c,j,d,l,k){/*! Jssor */
@@ -401,7 +399,9 @@
     }
 </style>
 <div class="page main-page">
-    <header class="page__hd main-page__hd" >
+    <div class="page__hd main-page__hd" >
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
         <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
             <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                 <div data-p="225.00">
@@ -418,8 +418,8 @@
                 <div data-u="prototype" style="width:16px;height:16px;"></div>
             </div>
         </div>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-cells">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
@@ -502,10 +502,10 @@
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <p>咨询电话：400-12345678</p>
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     (function(g,h,c,j,d,l,k){/*! Jssor */
@@ -524,45 +524,48 @@
 </style>
 
 <div class="page appoint-page">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title"></h1>
-    </header>
-    <section class="page__bd">
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
-            <div class="weui-cell weui-cell_select">
-                <div class="weui-cell__hd"><label class="weui-label">检测项目</label></div>
-                <div class="weui-cell__bd ">
-                    <select class="weui-select" name="select1">
-                        <option>体格检测、眼项检测</option>
-                        <option>基因检测</option>
-                        <option>基因检测、OGTT检测</option>
-                    </select>
+            <form name="" method="" action="">
+                <div class="weui-cell weui-cell_select">
+                    <div class="weui-cell__hd"><label class="weui-label">检测项目</label></div>
+                    <div class="weui-cell__bd ">
+                        <select class="weui-select" name="select1">
+                            <option>体格检测、眼项检测</option>
+                            <option>基因检测</option>
+                            <option>基因检测、OGTT检测</option>
+                        </select>
+                    </div>
+                    <div class="weui-cell__ft">
+                        <i class="weui-icon-warn"></i>
+                    </div>
                 </div>
-                <div class="weui-cell__ft">
-                    <i class="weui-icon-warn"></i>
+                <div class="weui-cell weui-cell_select">
+                    <div class="weui-cell__hd"><label class="weui-label">检测地点</label></div>
+                    <div class="weui-cell__bd">
+                        <select class="weui-select" name="select1">
+                            <option selected="" value="1">健康小屋</option>
+                            <option value="2">重庆市两江新区</option>
+                            <option value="3">重庆市XX区</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="weui-cell weui-cell_select">
-                <div class="weui-cell__hd"><label class="weui-label">检测地点</label></div>
-                <div class="weui-cell__bd">
-                    <select class="weui-select" name="select1">
-                        <option selected="" value="1">健康小屋</option>
-                        <option value="2">重庆市两江新区</option>
-                        <option value="3">重庆市XX区</option>
-                    </select>
+                <div class="weui-cell weui-cell_select">
+                    <div class="weui-cell__hd"><label class="weui-label">检测时间</label></div>
+                    <div class="weui-cell__bd">
+                        <select class="weui-select" name="select1" >
+                            <option selected="" value="1"></option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="weui-cell weui-cell_select">
-                <div class="weui-cell__hd"><label class="weui-label">检测时间</label></div>
-                <div class="weui-cell__bd">
-                    <select class="weui-select" name="select1" >
-                        <option selected="" value="1"></option>
-                    </select>
-                </div>
-            </div>
-            <div class="weui-cell weui-cell_last">
+                <div class="weui-cell weui-cell_last">
 
-            </div>
+                </div>
+            </form>
         </div>
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
@@ -575,10 +578,10 @@
             <p>4、化验空腹血糖前2-3天一定要停用维生素C，否则会干扰真实的检测结果。因为维生素C是一种很强的还原剂，可以与化验血糖、ta糖尿的试剂发生化学反应，使化验出的血糖、尿糖含量偏低。</p>
 
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
 
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function () {
@@ -736,7 +739,7 @@
     }
 </style>
 <div class="page appointed js_show">
-    <header class="page__hd">
+    <div class="page__hd">
         <p class="page__title">咨询热线 400-12345678</p>
         <div class="page__desc user_name">
             <div  class="user_name__show">
@@ -745,7 +748,6 @@
                 <i>&gt;</i>
             </div>
             <div class="user_name__tip"><i>糖尿病风险提示: </i><span>糖尿病前期糖尿病前期</span></div>
-
         </div>
         <div class="weui-cell weui-cell-nopadding">
             <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
@@ -765,8 +767,8 @@
                 </div>
             </div>
         </div>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-cell weui-cell-p">
             <p>糖尿病筛查预防项目指引</p>
         </div>
@@ -802,9 +804,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 <script type="text/javascript">
     (function(g,h,c,j,d,l,k){/*! Jssor */
@@ -900,7 +902,9 @@
     }
 </style>
 <div class="page appiont-time">
-    <header class="page__hd weui-grids">
+    <div class="page__hd weui-grids">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
         <a href="javascript:;" class="weui-grid">
             <p>今天</p>
             <p class="weui-grid__label">12月15号</p>
@@ -913,8 +917,8 @@
             <p>周一</p>
             <p class="weui-grid__label">12月17号</p>
         </a>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-grids">
             <a href="javascript:;" class="weui-grid">
                 <p>10:00-12:00</p>
@@ -966,9 +970,9 @@
             </a>
 
         </div>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_user-info-detail">
@@ -976,10 +980,11 @@
 
 <!--基本信息-->
 <div class="page user-info-detail">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">名称</h1>
-    </header>
-    <section class="page__bd">
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell ">
                 <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
@@ -1158,9 +1163,9 @@
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
         </div>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 <script type="text/javascript">
 
@@ -1179,12 +1184,13 @@
     }
 </style>
 <div class="page">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">预约体检信息度未完成弹框</h1>
-    </header>
-    <section class="page__bd page__bd_spacing">
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd page__bd_spacing">
         <a href="javascript:;" class="weui-btn" id="appoint">预约体检信息度未完成弹框</a>
-    </section>
+    </div>
     <div id="dialogs">
 
         <!--BEGIN dialog2-->
@@ -1199,8 +1205,8 @@
         </div>
         <!--END dialog2-->
     </div>
-    <footer class="page__ft">
-    </footer>
+    <div class="page__ft">
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -1255,10 +1261,11 @@
     }
 </style>
 <div class="page user-live-info">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">生活信息</h1>
-    </header>
-    <section class="page__bd">
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <article class="weui-article">
             <section>
                 <div class="info">
@@ -1307,9 +1314,9 @@
 
             </section>
         </article>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_questionnaire-write">
@@ -1319,12 +1326,28 @@
     .questionnaire-write .other div{
         display:none;
     }
+    .questionnaire-write .page__hd{
+        padding-left:0.7rem;
+        padding-right:0.7rem;
+    }
+    .questionnaire-write .page__title{
+        line-height:3rem;
+        background: #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding:0 0.7rem 0;
+    }
+    .questionnaire-write .weui-article{
+        padding-top:0;
+    }
 </style>
 <div class="page questionnaire-write">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">根据最近三个月的体验和感觉回答</h1>
-    </header>
-    <section class="page__bd">
+        <p class="page__desc"></p>
+    </div>
+    <div>
         <article class="weui-article">
             <section>
                 <section class="num1">
@@ -1404,56 +1427,13 @@
                         <input type="radio" name="redio"  value="随便"/><span>随便</span>
                     </div>
                 </section>
-                <section class="other">
-                    <p>
-                        <i>8</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
-                <section class="other">
-                    <p>
-                        <i>9</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
-                <section class="other">
-                    <p>
-                        <i>10</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
-                <section class="other">
-                    <p>
-                        <i>11</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
             </section>
         </article>
-    </section>
-    <footer class="page__ft">
-
-    </footer>
+    </div>
+    <div class="page__ft">
+        <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
+        <p>问卷提交后将无法修改，提交前请再次确认。（若提交后发现信息有误，请联系客服重新填写400-1234567）</p>
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_questionnaire-result">
@@ -1464,12 +1444,22 @@
     .questionnaire-result span{
         color:#e9a22c;
     }
+    .questionnaire-result .page__hd{
+        padding:0;
+    }
+    .questionnaire-result .weui-article{
+        padding:0;
+    }
+    .questionnaire-result .page__ft{
+        padding:0;
+    }
 </style>
 <div class="page questionnaire-result">
-    <header class="page__hd">
-        <h1 class="page__title">问卷的结果</h1>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <article class="weui-article">
             <section>
                 <p>
@@ -1508,10 +1498,10 @@
 
             </section>
         </article>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
 
-    </footer>
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_family-disease">
@@ -1594,11 +1584,11 @@
     }
 </style>
 <div class="page family-hasdisease">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title"></h1>
         <p class="page__desc"></p>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-cells">
             <div class="weui-cell weui-cell_select weui-cell_select-after">
                 <div class="weui-cell__hd">
@@ -1617,10 +1607,12 @@
                 </div>
             </div>
             <div class="weui-cell weui-cells_form">
-                <div class="weui-cell__hd"><label class="weui-label">患者年龄</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="text"  placeholder=""/>
-                </div>
+                <form name="" method="" action="">
+                    <div class="weui-cell__hd"><label class="weui-label">患者年龄</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="text"  placeholder=""/>
+                    </div>
+                </form>
             </div>
             <div class="weui-cell weui-cell_last">
 
@@ -1640,20 +1632,20 @@
         </div>
         <div class="weui-cells weui-cell__add">
             <div class="weui-cell weui-cells_form">
-                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="text"  placeholder=""/>
-                </div>
+                <form name="" method="" action="">
+                    <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="text"  placeholder=""/>
+                    </div>
+                </form>
             </div>
             <div class="weui-cell weui-cell_last weui-cell_last-other">
-
             </div>
         </div>
-
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
-    </footer>
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_family-hasdiseased">
@@ -1711,13 +1703,37 @@
     }
 </style>
 <div class="page family-hasdiseased">
-    <header class="page__hd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
         <p>您的直系亲属目前或曾经有哪些疾病？</p>
         <p class="tips">直系亲属包括：父母、兄妹、子女</p>
 
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
             <div class="weui-form-preview">
+                <form name="" method="" action="">
+                    <div class="weui-form-preview__hd">
+                        <div class="weui-form-preview__item">
+                            <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
+                            <em class="weui-form-preview__value">58岁<i>（患病年纪）</i></em>
+                        </div>
+                    </div>
+                    <div class="weui-form-preview__bd">
+                        <p >所患疾病</p>
+                        <span class="weui-form-item">
+                            <button>高血脂</button>
+                            <button>骨质酥松</button>
+                            <button>痛风</button>
+                            <button>高血压</button>
+                            <button>糖调节受损失</button>
+                            <button>慢性肝炎或肝硬化</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        <div class="weui-form-preview">
+            <form name="" method="" action="">
                 <div class="weui-form-preview__hd">
                     <div class="weui-form-preview__item">
                         <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
@@ -1727,38 +1743,20 @@
                 <div class="weui-form-preview__bd">
                     <p >所患疾病</p>
                     <span class="weui-form-item">
-                        <button>高血脂</button>
-                        <button>骨质酥松</button>
-                        <button>痛风</button>
-                        <button>高血压</button>
-                        <button>糖调节受损失</button>
-                        <button>慢性肝炎或肝硬化</button>
+                            <button>高血脂</button>
+                            <button>骨质酥松</button>
+                            <button>痛风</button>
+                            <button>高血压</button>
+                            <button>糖调节受损失</button>
+                            <button>慢性肝炎或肝硬化</button>
                     </span>
                 </div>
-            </div>
-        <div class="weui-form-preview">
-            <div class="weui-form-preview__hd">
-                <div class="weui-form-preview__item">
-                    <label class="weui-form-preview__label">父母<i> (与患者关系) </i></label>
-                    <em class="weui-form-preview__value">58岁<i>（患病年纪）</i></em>
-                </div>
-            </div>
-            <div class="weui-form-preview__bd">
-                <p >所患疾病</p>
-                <span class="weui-form-item">
-                        <button>高血脂</button>
-                        <button>骨质酥松</button>
-                        <button>痛风</button>
-                        <button>高血压</button>
-                        <button>糖调节受损失</button>
-                        <button>慢性肝炎或肝硬化</button>
-                    </span>
-            </div>
+            </form>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
             <a href="javascript:;" class="weui-btn weui-btn_primary"><i class="weui-icon-cancel"></i>添加</a>
-    </footer>
+    </div>
 </div>
 
 
@@ -1830,10 +1828,12 @@
         </div>
         <div class="weui-cells weui-cell__add">
             <div class="weui-cell weui-cells_form">
-                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="text"  placeholder=""/>
-                </div>
+                <form name="" method="" action="">
+                    <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="text"  placeholder=""/>
+                    </div>
+                </form>
             </div>
             <div class="weui-cell weui-cell_last weui-cell_last-other">
 
@@ -1933,7 +1933,6 @@
     }
 </style>
 
-
 <div class="page eye-testingList">
     <div class="page__hd">
         <h1 class="page__title"></h1>
@@ -2012,10 +2011,8 @@
                 </div>
             </div>
         </div>
-
     </div>
     <div class="page__ft">
-
     </div>
 </div>
 </script>
@@ -2196,9 +2193,6 @@
 <!--重庆市两江新区糖尿病健康管理状态提示-->
 
 <style type="text/css">
-    .user-state .weui-media-box__desc{
-        color: #6baae8;
-    }
     .user-state .weui-panel{
         background:#f8f5ee;
     }
@@ -2228,15 +2222,17 @@
     }
 </style>
 <div class="page gallery js_show user-state">
-    <header class="page__hd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
         <p class="page__title">咨询热线 400-12345678</p>
         <div class="page__desc user_name">
             <div  class="user_name__show"><i>头像</i><span>userName</span> &gt;</div>
             <div class="user_name__tip"><i>糖尿病风险提示: </i><span>糖尿病前期</span></div>
 
         </div>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-cells">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
@@ -2272,24 +2268,24 @@
                         <div class="weui-cell__bd weui-cell_primary">
                             <p>等待基础筛查结果</p>
                         </div>
-
                     </a>
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_user-forgotpassword">
 
 <!--忘记密码-->
 <div class="page user-forgotpassword">
-    <header class="page__hd">
-        <h3 class="page__title">名称</h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title">名称</h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
 
             <div class="weui-cell ">
@@ -2330,10 +2326,10 @@
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <p >咨询电话：400-12345678</p>
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -2357,11 +2353,11 @@
 
 
 <div class="page user-register">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">名称</h1>
         <p class="page__desc"></p>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell ">
                 <div class="weui-cell__hd">
@@ -2391,10 +2387,10 @@
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">登录</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <p>咨询电话：400-12345678</p>
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -2420,10 +2416,11 @@
 <!--用户账号激活-->
 
 <div class="page user-active">
-    <header class="page__hd">
-        <h3 class="page__title">名称</h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title">名称</h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
 
             <div class="weui-cell ">
@@ -2469,10 +2466,10 @@
         <div class="weui-btn-area">
             <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <p >咨询电话：400-12345678</p>
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -2522,9 +2519,10 @@
     }
 </style>
 <div class="page protocal">
-    <header class="page__hd">
-
-    </header>
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
 
     <article class="weui-article protocal-content page__bd">
         <section class="protocal-con">
@@ -2580,10 +2578,11 @@
     }
 </style>
 <div class="page check-info">
-    <header class="page__hd">
-        <h3 class="page__title">名称</h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title">名称</h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class=" weui-media-box_text">
             <p class=""> 您的糖尿病免费健康筛查预约申请已提交！审核通过后将以短信形式下发至您预约申请的手机号中。持该号码即可在公众号注册您的个人账号激活您的糖尿病免费筛查预防服务</p>
             <p class=" tips">重庆市两江新区人民政府</p>
@@ -2591,10 +2590,10 @@
         <div class="weui-btn-area">
             <button class="weui-btn weui-btn_primary" type="button">确定</button>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
 
-    </footer>
+    </div>
 </div>
 
 
@@ -2605,14 +2604,50 @@
     <script type="text/html" id="tpl_medicine">
 
 <!--用药史-->
-
+<style type="text/css">
+    .medicine .page__hd{
+        padding:0;
+    }
+    .medicine .weui-btn_primary{
+        font-size:1.1rem;
+        margin-right:0.5rem;
+        margin-top:0.7rem;
+        color:#000;
+        background: #fff;
+        padding-left:0.7rem;
+        padding-right:0.7rem;
+    }
+    .medicine .weui-btn_primary:after{
+        border:0;
+    }
+    .medicine .button-sp-area{
+        line-height:1rem;
+    }
+    .medicine .weui-cells{
+        background:#f8f5ee;
+    }
+    .medicine .weui-cell_last-other:before{
+        left:0;
+        right:0;
+    }
+    .medicine label{
+        width:50px;
+    }
+    .medicine .weui-cells_form{
+        padding-top:0;
+    }
+    .medicine .page__ft .weui-btn_primary{
+        background: #E9A22C;
+        color:#fff;
+    }
+</style>
 
 <div class="page medicine">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title"></h1>
         <p class="page__desc"></p>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="button-sp-area">
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降压药</a>
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降糖药</a>
@@ -2630,17 +2665,21 @@
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗精神病药物</a>
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗抑郁药物</a>
         </div>
-        <div class="weui-cells weui-cells_form ">
-            <div class="weui-cell__hd"><label class="weui-label">其他药物</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="text"  placeholder=""/>
+        <div class="weui-cells weui-cell__add">
+            <div class="weui-cell weui-cells_form">
+                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder=""/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_last weui-cell_last-other">
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <a href="javascript:;" class="weui-btn weui-btn_warn">删除</a>
         <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
-    </footer>
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_medicine-history">
@@ -2648,17 +2687,42 @@
 
 
 <!--已有用药史-->
-
+<style type="text/css">
+    .medicine-history .page__title{
+        font-size:1rem;
+    }
+    .medicine-history .page__bd{
+        padding-top:0;
+    }
+    .medicine-history .page__bd .weui-media-box__title{
+        font-size:0.8rem;
+        color:#555;
+    }
+    .medicine-history .page__bd .weui-btn_mini{
+        font-size:1rem;
+        color:#E9A22C;
+        background:#fff;
+        line-height:1.5rem;
+        margin-top:0;
+        padding-left: 0.3rem;
+        padding-right:0.3rem;
+    }
+    .medicine-history .page__bd .weui-btn_mini:after{
+        border:0;
+        width:0;
+        height:0;
+    }
+</style>
 
 
 
 
 <div class="page medicine-history">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">您目前或曾经使用过哪些药物？</h1>
         <p class="page__desc"></p>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-panel weui-panel_access">
             <div class="weui-panel__bd">
                 <div class="weui-media-box weui-media-box_text">
@@ -2668,16 +2732,16 @@
                         <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">降压药</a>
                         <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">雌激素类药物</a>
                         <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">帕尔马林</a>
-                        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">阿莫西林</a>
+                        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">红霉素</a>
                         <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">阿奇霉素</a>
                     </div>
                     </p>
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_OPS">
@@ -2686,18 +2750,12 @@
 <!--手术史新建-->
 
 <div class="page OPS">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title"></h1>
         <p class="page__desc"></p>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
-            <div class="weui-cell">
-                <div class="weui-cell__hd"><label class="weui-label">手术名称</label></div>
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="text"  placeholder=""/>
-                </div>
-            </div>
                 <div class="weui-cell weui-cell_select weui-cell_select-after">
                     <div class="weui-cell__hd">
                         <label for="" class="weui-label">手术时间</label>
@@ -2730,33 +2788,37 @@
             </div>
         </div>
         <p>手术部位</p>
-    <div class="button-sp-area">
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降压药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降糖药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降脂药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降尿酸药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">缓解哮喘药物</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">解热镇痛类药物</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">强的松类药物</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">雌激素类药物</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">利尿剂</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">镇静剂</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">中草药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">避孕药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗心律失常药</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗精神病药物</a>
-        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗抑郁药物</a>
-    </div>
-        <div class="weui-cells weui-cells_form ">
-            <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="text"  placeholder=""/>
+        <div class="button-sp-area">
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降压药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降糖药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降脂药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降尿酸药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">缓解哮喘药物</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">解热镇痛类药物</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">强的松类药物</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">雌激素类药物</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">利尿剂</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">镇静剂</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">中草药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">避孕药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗心律失常药</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗精神病药物</a>
+            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗抑郁药物</a>
+        </div>
+        <div class="weui-cells weui-cell__add">
+            <div class="weui-cell weui-cells_form">
+                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder=""/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_last weui-cell_last-other">
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
-    </footer>
+    </div>
 </div>
 </script>
     <script type="text/html" id="tpl_OPS-history">
@@ -2780,12 +2842,11 @@
     }
 </style>
 <div class="page OPS-history">
-    <header class="page__hd">
-        <p>您曾经做过哪些手术？</p>
-
-
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc">您曾经做过哪些手术？</p>
+    </div>
+    <div class="page__bd">
         <div class="weui-form-preview">
             <div class="weui-form-preview__hd">
                 <div class="weui-form-preview__item">
@@ -2807,12 +2868,12 @@
 
         </div>
 
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <article class="weui-article">
             <a href="javascript:;" class="weui-btn weui-btn_default"><i class="weui-icon-cancel"></i>添加</a>
         </article>
-    </footer>
+    </div>
 </div>
 
 
@@ -2830,10 +2891,11 @@
     }
 </style>
 <div class="page Physical-testingresult">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title"></h1>
-    </header>
-    <section class="page__bd">
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
@@ -2901,10 +2963,10 @@
         <div class="look-all" >
             <a href="#">查看全部</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         如若您对体检数据有异议，请致电*******咨询
-    </footer>
+    </div>
 </div>
 
 </script>
@@ -2957,10 +3019,11 @@
 <!--账号管理-->
 
 <div class="page user-manage">
-    <header class="page__hd">
-        <h3 class="page__title"></h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell">
                 <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
@@ -2998,9 +3061,9 @@
         <div class="weui-btn-area">
             <a href="javascript:;" class="weui-btn weui-btn_warn">退出</a>
         </div>
-    </section>
-    <footer class="page__ft">
-    </footer>
+    </div>
+    <div class="page__ft">
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -3026,10 +3089,11 @@
 <!--修改手机号获取验证码-->
 
 <div class="page tel-change">
-    <header class="page__hd">
-        <h3 class="page__title"></h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <p>您当前的手机号<i>130*****138</i>,为确保您的账号安全请先获取验证码</p>
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell ">
@@ -3051,10 +3115,10 @@
         <div class="weui-btn-area">
             <a href="javascript:;" class="weui-btn weui-btn_primary">下一步</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <p>咨询电话：400-12345678</p>
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -3081,10 +3145,11 @@
 
 
 <div class="page tel-changing">
-    <header class="page__hd">
-        <h3 class="page__title"></h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
 
             <div class="weui-cell ">
@@ -3110,10 +3175,10 @@
         <div class="weui-btn-area">
             <a href="javascript:;" class="weui-btn weui-btn_primary">退出</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <p>咨询电话：400-12345678</p>
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -3140,10 +3205,11 @@
 
 
 <div class="page password-change">
-    <header class="page__hd">
-        <h3 class="page__title"></h3>
-    </header>
-    <section class="page__bd">
+    <div class="page__hd">
+        <h1 class="page__title"></h1>
+        <p class="page__desc"></p>
+    </div>
+    <div class="page__bd">
         <div class="weui-cells weui-cells_form">
             <div class="weui-cell">
                 <div class="weui-cell__hd"><label class="weui-label">旧密码</label></div>
@@ -3171,10 +3237,10 @@
         <div class="weui-btn-area">
             <a href="javascript:;" class="weui-btn weui-btn_primary">确定</a>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
 
-    </footer>
+    </div>
 </div>
 <script type="text/javascript">
     $(function(){
@@ -3202,7 +3268,8 @@
 </style>
 <div class="page">
   <div class="page__hd">
-    <h3 class="page__title">名称</h3>
+    <h1 class="page__title">名称</h1>
+    <p class="page__desc"></p>
   </div>
   <div class="page__bd">
     <div class="weui-cells weui-cells_form">

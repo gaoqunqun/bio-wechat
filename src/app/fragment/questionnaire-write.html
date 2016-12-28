@@ -4,12 +4,28 @@
     .questionnaire-write .other div{
         display:none;
     }
+    .questionnaire-write .page__hd{
+        padding-left:0.7rem;
+        padding-right:0.7rem;
+    }
+    .questionnaire-write .page__title{
+        line-height:3rem;
+        background: #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding:0 0.7rem 0;
+    }
+    .questionnaire-write .weui-article{
+        padding-top:0;
+    }
 </style>
 <div class="page questionnaire-write">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title">根据最近三个月的体验和感觉回答</h1>
-    </header>
-    <section class="page__bd">
+        <p class="page__desc"></p>
+    </div>
+    <div>
         <article class="weui-article">
             <section>
                 <section class="num1">
@@ -89,54 +105,11 @@
                         <input type="radio" name="redio"  value="随便"/><span>随便</span>
                     </div>
                 </section>
-                <section class="other">
-                    <p>
-                        <i>8</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
-                <section class="other">
-                    <p>
-                        <i>9</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
-                <section class="other">
-                    <p>
-                        <i>10</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
-                <section class="other">
-                    <p>
-                        <i>11</i>/62 用灭火器灭火时，灭火器的喷射口是应对准火焰的什么部位？
-                    </p>
-                    <div>
-                        <input type="radio" name="redio"  value="上部"/><span>上部</span>
-                        <input type="radio" name="redio"  value="下部"/><span>下部</span>
-                        <input type="radio" name="redio"  value="中部"/><span>中部</span>
-                        <input type="radio" name="redio"  value="随便"/><span>随便</span>
-                    </div>
-                </section>
             </section>
         </article>
-    </section>
-    <footer class="page__ft">
-
-    </footer>
+    </div>
+    <div class="page__ft">
+        <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
+        <p>问卷提交后将无法修改，提交前请再次确认。（若提交后发现信息有误，请联系客服重新填写400-1234567）</p>
+    </div>
 </div>

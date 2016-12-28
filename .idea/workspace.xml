@@ -3,34 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="69b49a87-8e20-49fe-8df7-6b4b13f759ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/app.css" afterPath="$PROJECT_DIR$/dist/app/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/index.html" afterPath="$PROJECT_DIR$/dist/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/style/weui.css" afterPath="$PROJECT_DIR$/dist/style/weui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/style/weui.min.css" afterPath="$PROJECT_DIR$/dist/style/weui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.less" afterPath="$PROJECT_DIR$/src/app/app.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/OPS-history.html" afterPath="$PROJECT_DIR$/src/app/fragment/OPS-history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/OPS.html" afterPath="$PROJECT_DIR$/src/app/fragment/OPS.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/Physical-testingresult.html" afterPath="$PROJECT_DIR$/src/app/fragment/Physical-testingresult.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/allergy.html" afterPath="$PROJECT_DIR$/src/app/fragment/allergy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/appiont-time.html" afterPath="$PROJECT_DIR$/src/app/fragment/appiont-time.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/apply.html" afterPath="$PROJECT_DIR$/src/app/fragment/apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/appoint-judgeBounce.html" afterPath="$PROJECT_DIR$/src/app/fragment/appoint-judgeBounce.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/appoint-page.html" afterPath="$PROJECT_DIR$/src/app/fragment/appoint-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/appointed.html" afterPath="$PROJECT_DIR$/src/app/fragment/appointed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/check-info.html" afterPath="$PROJECT_DIR$/src/app/fragment/check-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/eye-testingList.html" afterPath="$PROJECT_DIR$/src/app/fragment/eye-testingList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/family-hasdisease.html" afterPath="$PROJECT_DIR$/src/app/fragment/family-hasdisease.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html" afterPath="$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/home-login.html" afterPath="$PROJECT_DIR$/src/app/fragment/home-login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/home-main.html" afterPath="$PROJECT_DIR$/src/app/fragment/home-main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/home.html" afterPath="$PROJECT_DIR$/src/app/fragment/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/info-check.html" afterPath="$PROJECT_DIR$/src/app/fragment/info-check.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/login.html" afterPath="$PROJECT_DIR$/src/app/fragment/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/medicine-history.html" afterPath="$PROJECT_DIR$/src/app/fragment/medicine-history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/medicine.html" afterPath="$PROJECT_DIR$/src/app/fragment/medicine.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/password-change.html" afterPath="$PROJECT_DIR$/src/app/fragment/password-change.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/protocal.html" afterPath="$PROJECT_DIR$/src/app/fragment/protocal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/questionnaire-result.html" afterPath="$PROJECT_DIR$/src/app/fragment/questionnaire-result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/questionnaire-write.html" afterPath="$PROJECT_DIR$/src/app/fragment/questionnaire-write.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/tel-change.html" afterPath="$PROJECT_DIR$/src/app/fragment/tel-change.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/tel-changing.html" afterPath="$PROJECT_DIR$/src/app/fragment/tel-changing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-active.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-active.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-forgotpassword.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-forgotpassword.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-info-detail.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-info-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-live-info.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-live-info.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-manage.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-manage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-register.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/base/variable/weui-button.less" afterPath="$PROJECT_DIR$/src/style/base/variable/weui-button.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/base/variable/weui-cell.less" afterPath="$PROJECT_DIR$/src/style/base/variable/weui-cell.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/base/variable/weui-dialog.less" afterPath="$PROJECT_DIR$/src/style/base/variable/weui-dialog.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/widget/weui-button/weui-button.less" afterPath="$PROJECT_DIR$/src/style/widget/weui-button/weui-button.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell_global.less" afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell_global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form_common.less" afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form_common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-select.less" afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-select.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-vcode.less" afterPath="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-vcode.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fragment/user-state.html" afterPath="$PROJECT_DIR$/src/app/fragment/user-state.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,44 +56,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/fragment/home.html">
+      <file leaf-file-name="appoint-judgeBounce.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/appoint-judgeBounce.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weui-form_common.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form_common.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="216">
+              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weui-button.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/widget/weui-button/weui-button.less">
+      <file leaf-file-name="appoint-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/appoint-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+            <state relative-caret-position="828">
+              <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="family-hasdiseased.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html">
+      <file leaf-file-name="check-info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/check-info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="468">
+              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deep-minified.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/deep-minified.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eye-testingList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/eye-testingList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1890">
+              <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="family-disease.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/family-disease.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -97,58 +119,38 @@
       <file leaf-file-name="family-hasdisease.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/fragment/family-hasdisease.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="1728">
+              <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weui-btn_primary.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/widget/weui-button/weui-btn_primary.less">
+      <file leaf-file-name="family-hasdiseased.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="1854">
+              <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weui-button.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/style/base/variable/weui-button.less">
+      <file leaf-file-name="gene-testingReport.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/gene-testingReport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="414">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appiont-time.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/fragment/appiont-time.html">
+      <file leaf-file-name="appointed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fragment/appointed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weui-cell_global.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell_global.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="2628">
+              <caret line="146" column="8" lean-forward="true" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -181,57 +183,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/fragment/medicine.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/medicine-history.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/OPS.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/protocal.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/questionnaire-result.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/questionnaire-write.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-live-info.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-state.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/appoint-judgeBounce.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/OPS-history.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/deep-minified.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/no-jquery.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/with-jquery.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/home-main.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/Physical-testingList.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/eye-testingList.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/gene-testingReport.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/OGTT-testing.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/OGTT-alltesting.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/Physical-testingresult.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/Physical-identify.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html" />
-        <option value="$PROJECT_DIR$/src/app/index.html" />
-        <option value="$PROJECT_DIR$/src/app/app.js" />
-        <option value="$PROJECT_DIR$/src/app/fragment/appointed.html" />
         <option value="$PROJECT_DIR$/src/style/widget/weui-media-box/weui-media-box.less" />
         <option value="$PROJECT_DIR$/src/style/base/variable/weui-dialog.less" />
         <option value="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-vcode.less" />
         <option value="$PROJECT_DIR$/src/style/base/variable/weui-cell.less" />
-        <option value="$PROJECT_DIR$/src/app/fragment/appoint-page.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/info-check.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-forgotpassword.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-register.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-active.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-manage.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/tel-change.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/password-change.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/login.html" />
-        <option value="$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell_global.less" />
-        <option value="$PROJECT_DIR$/src/app/fragment/home.html" />
         <option value="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form_common.less" />
-        <option value="$PROJECT_DIR$/src/app/fragment/user-info-detail.html" />
         <option value="$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-select.less" />
-        <option value="$PROJECT_DIR$/src/app/fragment/apply.html" />
         <option value="$PROJECT_DIR$/src/style/widget/weui-button/weui-button.less" />
-        <option value="$PROJECT_DIR$/src/app/fragment/tel-changing.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/appiont-time.html" />
-        <option value="$PROJECT_DIR$/src/app/app.less" />
-        <option value="$PROJECT_DIR$/src/app/fragment/check-info.html" />
-        <option value="$PROJECT_DIR$/src/app/fragment/family-hasdisease.html" />
         <option value="$PROJECT_DIR$/src/style/base/variable/weui-button.less" />
+        <option value="$PROJECT_DIR$/src/app/app.less" />
+        <option value="$PROJECT_DIR$/src/app/index.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/info-check.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/Physical-identify.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/Physical-testingList.html" />
+        <option value="$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell_global.less" />
+        <option value="$PROJECT_DIR$/src/app/fragment/allergy-history.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/gene-testingReport.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/OGTT-testing.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/OGTT-alltesting.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/medicine.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/medicine-history.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-register.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/appiont-time.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/appoint-judgeBounce.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/check-info.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/home-login.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/home-main.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/login.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/OPS-history.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/password-change.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/Physical-testingresult.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/protocal.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/questionnaire-result.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/questionnaire-write.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/tel-change.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/tel-changing.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-active.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-forgotpassword.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-info-detail.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-live-info.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-manage.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/user-state.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/home.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/OPS.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/apply.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/allergy.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/appoint-page.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/appointed.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/eye-testingList.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/family-disease.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/family-hasdisease.html" />
+        <option value="$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html" />
       </list>
     </option>
   </component>
@@ -252,9 +254,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="369" />
+    <option name="x" value="441" />
+    <option name="y" value="36" />
     <option name="width" value="1440" />
-    <option name="height" value="763" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -271,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,256 +287,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui-cell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui-cell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui-form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui-button" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="variable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bio-wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -632,35 +389,45 @@
       <workItem from="1481789829311" duration="20518000" />
       <workItem from="1481937108265" duration="15928000" />
       <workItem from="1482111866582" duration="7043000" />
-      <workItem from="1482120076414" duration="58135000" />
+      <workItem from="1482120076414" duration="68900000" />
+      <workItem from="1482464745506" duration="10591000" />
+      <workItem from="1482486872558" duration="6388000" />
+      <workItem from="1482562680870" duration="124000" />
+      <workItem from="1482720664164" duration="194000" />
+      <workItem from="1482740162197" duration="30000" />
+      <workItem from="1482740831622" duration="3628000" />
+      <workItem from="1482817392253" duration="134000" />
+      <workItem from="1482888357788" duration="4763000" />
+      <workItem from="1482905343199" duration="247000" />
+      <workItem from="1482914789153" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127898000" />
+    <option name="totallyTimeSpent" value="164773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="369" width="1440" height="763" extended-state="0" />
-    <editor active="true" />
+    <frame x="441" y="36" width="1440" height="738" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11736111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,33 +441,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/msg_warn.html">
+    <entry file="file://$PROJECT_DIR$/src/app/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/article.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/Physical-testingList.html">
+    <entry file="file://$PROJECT_DIR$/src/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="2135">
+          <caret line="515" column="14" lean-forward="false" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="14" />
+          <folding>
+            <marker date="1482298697000" expanded="true" signature="14631:14768" ph="..." />
+            <marker date="1482298697000" expanded="true" signature="14829:14865" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/questionnaire-write.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/badge.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-live-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -714,39 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-state.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="85" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/preview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/dialog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -754,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/flex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -762,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -770,55 +506,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/action.php">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/msg_success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1821">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/Physical-identify.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/home-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="91" column="34" lean-forward="false" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/home-main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4617">
-          <caret line="102" column="23325" lean-forward="false" selection-start-line="102" selection-start-column="23325" selection-end-line="102" selection-end-column="23325" />
+        <state relative-caret-position="288">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/msg.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/info-check.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -826,58 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="502" column="9" lean-forward="false" selection-start-line="502" selection-start-column="9" selection-end-line="502" selection-end-column="9" />
-          <folding>
-            <marker date="1482298697000" expanded="true" signature="14631:14768" ph="..." />
-            <marker date="1482298697000" expanded="true" signature="14829:14865" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-media-box/weui-media-box.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/base/variable/weui-dialog.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-vcode.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/base/variable/weui-cell.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
@@ -885,205 +554,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/info-check.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/medicine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="60" column="63" lean-forward="false" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+        <state relative-caret-position="659">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-forgotpassword.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/medicine-history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="522">
+          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-active.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/OGTT-alltesting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="18">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-manage.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/OGTT-testing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="18">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/password-change.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="126">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/Physical-testingList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/Physical-testingresult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/protocal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/questionnaire-result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/questionnaire-write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/tel-change.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="144">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-select.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/tel-changing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="144">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-cell/weui-form/weui-form_common.less">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-active.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="108">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-forgotpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/user-info-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="162" column="22" lean-forward="true" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-cell/weui-cell_global.less">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-live-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/OPS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.less">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="59" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/OPS-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/user-manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/allergy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/allergy-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/appiont-time.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/check-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="92">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="31" />
+        <state relative-caret-position="162">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/appointed.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/appoint-judgeBounce.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/appoint-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="828">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-button/weui-button.less">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/appointed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="2628">
+          <caret line="146" column="8" lean-forward="true" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/check-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="468">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/deep-minified.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/eye-testingList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/family-disease.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fragment/family-hasdisease.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="1728">
+          <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/widget/weui-button/weui-btn_primary.less">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/family-hasdiseased.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="1854">
+          <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/base/variable/weui-button.less">
+    <entry file="file://$PROJECT_DIR$/src/app/fragment/gene-testingReport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="414">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>

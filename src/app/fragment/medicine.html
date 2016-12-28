@@ -1,13 +1,49 @@
 
 <!--用药史-->
-
+<style type="text/css">
+    .medicine .page__hd{
+        padding:0;
+    }
+    .medicine .weui-btn_primary{
+        font-size:1.1rem;
+        margin-right:0.5rem;
+        margin-top:0.7rem;
+        color:#000;
+        background: #fff;
+        padding-left:0.7rem;
+        padding-right:0.7rem;
+    }
+    .medicine .weui-btn_primary:after{
+        border:0;
+    }
+    .medicine .button-sp-area{
+        line-height:1rem;
+    }
+    .medicine .weui-cells{
+        background:#f8f5ee;
+    }
+    .medicine .weui-cell_last-other:before{
+        left:0;
+        right:0;
+    }
+    .medicine label{
+        width:50px;
+    }
+    .medicine .weui-cells_form{
+        padding-top:0;
+    }
+    .medicine .page__ft .weui-btn_primary{
+        background: #E9A22C;
+        color:#fff;
+    }
+</style>
 
 <div class="page medicine">
-    <header class="page__hd">
+    <div class="page__hd">
         <h1 class="page__title"></h1>
         <p class="page__desc"></p>
-    </header>
-    <section class="page__bd">
+    </div>
+    <div class="page__bd">
         <div class="button-sp-area">
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降压药</a>
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">降糖药</a>
@@ -25,15 +61,19 @@
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗精神病药物</a>
             <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">抗抑郁药物</a>
         </div>
-        <div class="weui-cells weui-cells_form ">
-            <div class="weui-cell__hd"><label class="weui-label">其他药物</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="text"  placeholder=""/>
+        <div class="weui-cells weui-cell__add">
+            <div class="weui-cell weui-cells_form">
+                <div class="weui-cell__hd"><label class="weui-label">其他</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder=""/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_last weui-cell_last-other">
             </div>
         </div>
-    </section>
-    <footer class="page__ft">
+    </div>
+    <div class="page__ft">
         <a href="javascript:;" class="weui-btn weui-btn_warn">删除</a>
         <a href="javascript:;" class="weui-btn weui-btn_primary">提交</a>
-    </footer>
+    </div>
 </div>
